@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Sitao Min"
   avatar           : "profile.png"
-  bio              : "Student at University of Southern California, focusing on data analytics in marketing, healthcare and software engineering"
+  bio              : "Student at University of Southern California"
   location         : "Los Angeles"
   employer         :
-  pubmed           : ""
-  googlescholar    : ""
+  pubmed           : 
+  googlescholar    : 
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/sitao-min-605ab2134/"
-  orcid            : ""
+  linkedin         : "sitao-min-605ab2134/"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : ""
+  twitter          : 
   vine             :
   weibo            :
   xing             :
