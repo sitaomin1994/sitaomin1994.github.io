@@ -1,11 +1,19 @@
 ---
-title: "sitaomin1994.github.io"
+title: "Sitao Min"
+image: linkedin.jfif
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/sitao-m-605ab2134/
+    - icon: github
+      text: GitHub
+      href: https://github.com/sitaomin1994/
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=dhpYC6sAAAAJ&hl=en&authuser=1
+    # (additional links excluded for brevity)
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Hi there! I'm Sitao Min. I am a PhD Candidate from Rutgers Institute of Data Science, Learning and Application.
