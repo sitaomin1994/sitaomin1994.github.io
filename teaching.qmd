@@ -1,0 +1,35 @@
+---
+format: 
+    html:
+        title-block-banner: false
+        title-block-style: none
+---
+
+## Teaching Assistant at Rutgers University
+
+:::: {.teaching-grid}
+
+::: {.course}
+
+- **Introduction to Cybersecurity** (Undergraduate), Spring 2023
+- **Deep Learning** (Graduate), Spring 2023
+- **Data Mining** (Graduate), Fall 2022
+- **Data Mining** (Graduate), Spring 2022
+- **Introduction to Data Structure and Algorithm** (Graduate), Fall 2021
+- **Foundations of Business Programming (BAIT 388)** (Undergraduate), Spring 2021
+- **Foundations of Business Programming (BAIT 388)** (Undergraduate), Fall 2020
+:::
+
+::::
+
+## Course Assistant at University of Southern California
+
+:::: {.teaching-grid}
+
+::: {.course}
+- **CSCI 561 Introduction to Artificial Intelligence** (Graduate), Spring 2020
+- **CSCI 561 Introduction to Artificial Intelligence** (Graduate), Fall 2019
+:::
+
+::::
+

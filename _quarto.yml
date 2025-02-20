@@ -12,19 +12,18 @@ website:
         text: Research
       - href: experience.qmd
         text: Experience
-      - href: software.qmd
-        text: Software
+      - href: teaching.qmd
+        text: Teaching
     collapse: true
     search: false
     background: primary
     back-to-top-navigation: true
-    page-footer: "Copyright 2024, Sitao Min" 
+    page-footer: "Copyright 2024, Sitao Min"
+    max-width: 1500px
 
 format:
   html:
-    theme:
-        light: sandstone
-        dark: darkly
+    theme: sandstone
     css: styles.css
     toc: false
 

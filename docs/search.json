@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sitao Min",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "STM",
     "section": "",
-    "text": "Hi there! I’m Sitao Min. I am a PhD Candidate from Rutgers Institute of Data Science, Learning and Application."
+    "text": "Introduction to Cybersecurity (Undergraduate), Spring 2023\nDeep Learning (Graduate), Spring 2023\nData Mining (Graduate), Fall 2022\nData Mining (Graduate), Spring 2022\nIntroduction to Data Structure and Algorithm (Graduate), Fall 2021\nFoundations of Business Programming (BAIT 388) (Undergraduate), Spring 2021\nFoundations of Business Programming (BAIT 388) (Undergraduate), Fall 2020"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sitao Min",
+    "section": "",
+    "text": "Hi there! I am a Ph.D. candidate at Rutgers Business School, working under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA). I hold a Master’s in Computer Science from USC and Bachelor’s in Physics from Zhejiang University, China.\nMy research focuses on healthcare data science, particularly missing data imputation (e.g., in distributed healthcare networks), clinical and EHR data analysis (e.g., real-world evidence (RWE)), and federated learning. I am passionate about developing statistical and data science methods to advance evidence-based healthcare analysis."
+  },
+  {
+    "objectID": "teaching.html#teaching-assistant-at-rutgers-university",
+    "href": "teaching.html#teaching-assistant-at-rutgers-university",
+    "title": "STM",
+    "section": "",
+    "text": "Introduction to Cybersecurity (Undergraduate), Spring 2023\nDeep Learning (Graduate), Spring 2023\nData Mining (Graduate), Fall 2022\nData Mining (Graduate), Spring 2022\nIntroduction to Data Structure and Algorithm (Graduate), Fall 2021\nFoundations of Business Programming (BAIT 388) (Undergraduate), Spring 2021\nFoundations of Business Programming (BAIT 388) (Undergraduate), Fall 2020"
+  },
+  {
+    "objectID": "teaching.html#course-assistant-at-university-of-southern-california",
+    "href": "teaching.html#course-assistant-at-university-of-southern-california",
+    "title": "STM",
+    "section": "Course Assistant at University of Southern California",
+    "text": "Course Assistant at University of Southern California\n\n\nCourses\n\n\nCSCI 561 Introduction to Artificial Intelligence (Graduate), Spring 2020\nCSCI 561 Introduction to Artificial Intelligence (Graduate), Fall 2019"
   }
 ]
