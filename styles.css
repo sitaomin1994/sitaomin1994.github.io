@@ -33,3 +33,33 @@
   font-style: italic;
   margin-top: 0.25rem;
 }
+
+
+.experience-container {
+  margin-left: 0.5rem;
+  border-left: 3px solid #2c3e50;
+  padding-left: 0rem;
+}
+
+.project {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+/*.project strong {
+  color: #2c3e50;
+  display: block;
+  margin-bottom: 0.5rem;
+}*/
+
+h3 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+a {
+    color: #4682B4;
+    text-decoration: underline;
+}

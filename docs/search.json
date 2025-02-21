@@ -7,20 +7,6 @@
     "text": "Introduction to Cybersecurity (Undergraduate), Spring 2023\nDeep Learning (Graduate), Spring 2023\nData Mining (Graduate), Fall 2022\nData Mining (Graduate), Spring 2022\nIntroduction to Data Structure and Algorithm (Graduate), Fall 2021\nFoundations of Business Programming (BAIT 388) (Undergraduate), Spring 2021\nFoundations of Business Programming (BAIT 388) (Undergraduate), Fall 2020"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sitao Min",
-    "section": "",
-    "text": "Hi there! I am a Ph.D. candidate at Rutgers Business School, working under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA). I hold a Master’s in Computer Science from USC and Bachelor’s in Physics from Zhejiang University, China.\nMy research focuses on healthcare data science, particularly missing data imputation (e.g., in distributed healthcare networks), clinical and EHR data analysis (e.g., real-world evidence (RWE)), and federated learning. I am passionate about developing statistical and data science methods to advance evidence-based healthcare analysis."
-  },
-  {
     "objectID": "teaching.html#teaching-assistant-at-rutgers-university",
     "href": "teaching.html#teaching-assistant-at-rutgers-university",
     "title": "STM",
@@ -32,6 +18,55 @@
     "href": "teaching.html#course-assistant-at-university-of-southern-california",
     "title": "STM",
     "section": "Course Assistant at University of Southern California",
-    "text": "Course Assistant at University of Southern California\n\n\nCourses\n\n\nCSCI 561 Introduction to Artificial Intelligence (Graduate), Spring 2020\nCSCI 561 Introduction to Artificial Intelligence (Graduate), Fall 2019"
+    "text": "Course Assistant at University of Southern California\n\n\n\nCSCI 561 Introduction to Artificial Intelligence (Graduate), Spring 2020\nCSCI 561 Introduction to Artificial Intelligence (Graduate), Fall 2019"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "STM",
+    "section": "",
+    "text": "Data Science Intern, DvSum.ai, June - Sep 2021, CA, USA\n\n\nIntelligent Metadata Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based meta data matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
+  },
+  {
+    "objectID": "experience.html#work-experience",
+    "href": "experience.html#work-experience",
+    "title": "STM",
+    "section": "",
+    "text": "Data Science Intern, DvSum.ai, June - Sep 2021, CA, USA\n\n\nIntelligent Metadata Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based meta data matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
+  },
+  {
+    "objectID": "experience.html#competitions-and-awards",
+    "href": "experience.html#competitions-and-awards",
+    "title": "STM",
+    "section": "Competitions and Awards",
+    "text": "Competitions and Awards\n\n\nUS PETs (Privacy-enhancing Technolgy) Challenge, Financial Crime Prevention, 1st Place (1/60)\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs\n\n\n\n\n\nKaggle Predict New Medicines with BELKA, Blonde Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction."
+  },
+  {
+    "objectID": "experience.html#software-project",
+    "href": "experience.html#software-project",
+    "title": "STM",
+    "section": "Software Project",
+    "text": "Software Project\nI am the author of following packages and software projects:\n\nFedImpute - Toolkit for Distributed Missing Data Imputation Research\nMedDataKit - Toolkit for collection and analysis of Clinical Tabular Data\nCrowdMap - Crowd Monitoring Dashboard for Covid-19 via Wifi Connection"
+  },
+  {
+    "objectID": "experience.html#courses-taken",
+    "href": "experience.html#courses-taken",
+    "title": "STM",
+    "section": "Courses Taken",
+    "text": "Courses Taken\n\nLinear Statistical Model, Rutgers, Syllubas\nIntroduction to Probability, Rutgers, Syllubas\nAdvanced Econometrics, USC\nStochastic Process, Rutgers, Syllubas\nData Mining, Rutgers, Syllubas\nMachine Learning for Data Science, USC, Syllubas\nData Privacy, Rutgers, Syllubas\nReinforcement Learning, Rutgers\nDatabase System, USC, Syllubas"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sitao Min",
+    "section": "",
+    "text": "Hi there! I am a Ph.D. candidate at Rutgers Business School, working under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA). I hold a Master’s in Computer Science from USC and Bachelor’s in Physics from Zhejiang University, China.\nMy research focuses on healthcare data science, particularly missing data imputation (e.g., in distributed healthcare networks), clinical and EHR data analysis (e.g., real-world evidence (RWE)), federated learning and Synthetic Data Generation. I am passionate about developing statistical and data science methods to advance evidence-based healthcare analysis."
   }
 ]
