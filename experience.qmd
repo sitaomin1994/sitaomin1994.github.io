@@ -7,7 +7,7 @@ format:
 
 ## Work Experience
 
-**Data Science Intern, [DvSum.ai](https://dvsum.ai/), June - Sep 2021, CA, USA**
+**Data Science Intern, [DvSum.ai](https://dvsum.ai/){target="_blank"}, June - Sep 2021, CA, USA**
 
 :::: experience-container
 ::: project
@@ -32,7 +32,7 @@ Created an end-to-end pipeline for autonomous data cleaning, profiling, feature 
 **US PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)**
 
 -   Designed privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.
--   **Challenge Report: [US-UK PETs Challenge](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/challenges/us-uk-pets-prize) \| Solution: [Scarlet-PETs](https://github.com/usnistgov/PrivacyEngCollabSpace/tree/master/tools/de-identification/Scarlet-PETs)**
+-   **Challenge Report: [US-UK PETs Challenge](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/challenges/us-uk-pets-prize){target="_blank"} \| Solution: [Scarlet-PETs](https://github.com/usnistgov/PrivacyEngCollabSpace/tree/master/tools/de-identification/Scarlet-PETs){target="_blank"}**
 
 **Kaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024**
 
@@ -61,18 +61,18 @@ Created an end-to-end pipeline for autonomous data cleaning, profiling, feature 
 
 I am the author of the following packages and software projects:
 
--   [**FedImpute**](https://idsla.github.io/FedImpute/) **- Toolkit for Distributed Missing Data Imputation Research**
--   [**MedDataKit**](https://github.com/sitaomin1994/MedicalDataKit) **- Toolkit for Collection and Analysis of Medical Tabular Data**
--   [**CrowdMap**](https://youtu.be/I04TYDyScbU?si=xIlDBhsNeTw0NZ-v) **- Crowd Monitoring Dashboard for COVID-19 via WiFi Connection**
+-   [**FedImpute**](https://idsla.github.io/FedImpute/){target="_blank"} **- Toolkit for Distributed Missing Data Imputation Research**
+-   [**MedDataKit**](https://github.com/sitaomin1994/MedicalDataKit){target="_blank"} **- Toolkit for Collection and Analysis of Medical Tabular Data**
+-   [**CrowdMap**](https://youtu.be/I04TYDyScbU?si=xIlDBhsNeTw0NZ-v){target="_blank"} **- Crowd Monitoring Dashboard for COVID-19 via WiFi Connection**
 
 ## Courses Taken
 
--   **Linear Statistical Model**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/22_960_777.pdf)
--   **Introduction to Probability**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/26_960_575.pdf)
+-   **Linear Statistical Model**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/22_960_777.pdf){target="_blank"}
+-   **Introduction to Probability**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/26_960_575.pdf){target="_blank"}
 -   **Advanced Econometrics**, *USC*
--   **Stochastic Process**, *Rutgers*, [Syllabus](https://www.business.rutgers.edu/sites/default/files/documents/phd-syllabus-stochastic-processes.pdf)
--   **Data Mining**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/22_198_650.pdf)
+-   **Stochastic Process**, *Rutgers*, [Syllabus](https://www.business.rutgers.edu/sites/default/files/documents/phd-syllabus-stochastic-processes.pdf){target="_blank"}
+-   **Data Mining**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/22_198_650.pdf){target="_blank"}
 -   **Machine Learning for Data Science**, *USC,* [Syllabus](https://web-app.usc.edu/soc/syllabus/20192/32498.pdf)
--   **Data Privacy**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/26_198_645.pdf)
+-   **Data Privacy**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/26_198_645.pdf){target="_blank"}
 -   **Reinforcement Learning**, *Rutgers*
--   **Database System**, *USC*, [Syllabus](https://web-app.usc.edu/soc/syllabus/20243/30149.pdf)
+-   **Database System**, *USC*, [Syllabus](https://web-app.usc.edu/soc/syllabus/20243/30149.pdf){target="_blank"}
