@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -38,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-01c78b5cd655e4cd89133cf59d535862.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-200b0cc7cd77a8d4435ddadcd5519770.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-109083c0739162883cf903a1f655720d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,6 +83,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">STM</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -127,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="experience-container">
 <div class="project">
 <p><strong>Intelligent Metadata Management Pipeline</strong></p>
-<p>Developed an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based meta data matching and quality validation, and autonomous lineage tracking.</p>
+<p>Developed an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.</p>
 <p><strong>Automated Data Science Workflow</strong></p>
 <p>Created an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows.</p>
 </div>
@@ -137,43 +139,59 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="competitions-and-awards">Competitions and Awards</h2>
 <div class="experience-container">
 <div class="project">
-<p><strong>US PETs (Privacy-enhancing Technolgy) Challenge, Financial Crime Prevention, 1st Place (1/60)</strong></p>
+<p><strong>Kaggle CIBMTR - Equity in post-HCT Survival Predictions, 2025</strong></p>
+<ul>
+<li>Proposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.</li>
+</ul>
+<p><strong>US PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)</strong></p>
 <ul>
 <li>Designed privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.</li>
 <li><strong>Challenge Report: <a href="https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/challenges/us-uk-pets-prize">US-UK PETs Challenge</a> | Solution: <a href="https://github.com/usnistgov/PrivacyEngCollabSpace/tree/master/tools/de-identification/Scarlet-PETs">Scarlet-PETs</a></strong></li>
 </ul>
-</div>
-</div>
-<div class="experience-container">
-<div class="project">
-<p><strong>Kaggle Predict New Medicines with BELKA, Blonde Medal (178/1950), 2024</strong></p>
+<p><strong>Kaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024</strong></p>
 <ul>
 <li>Processed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction.</li>
 </ul>
 </div>
 </div>
+<!-- :::: experience-container
+::: project
+**US PETs (Privacy-enhancing Technolgy) Challenge, Financial Crime Prevention, 1st Place (1/60)**
+
+-   Designed privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.
+-   **Challenge Report: [US-UK PETs Challenge](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/challenges/us-uk-pets-prize) \| Solution: [Scarlet-PETs](https://github.com/usnistgov/PrivacyEngCollabSpace/tree/master/tools/de-identification/Scarlet-PETs)**
+:::
+::::
+
+:::: experience-container
+::: project
+**Kaggle Predict New Medicines with BELKA, Blonde Medal (178/1950), 2024**
+
+-   Processed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction.
+:::
+:::: -->
 </section>
-<section id="software-project" class="level2">
-<h2 class="anchored" data-anchor-id="software-project">Software Project</h2>
-<p>I am the author of following packages and software projects:</p>
+<section id="software-projects" class="level2">
+<h2 class="anchored" data-anchor-id="software-projects">Software Projects</h2>
+<p>I am the author of the following packages and software projects:</p>
 <ul>
-<li><strong><a href="https://idsla.github.io/FedImpute/">FedImpute</a> - Toolkit for Distributed Missing Data Imputation Research</strong></li>
-<li><strong><a href="https://github.com/sitaomin1994/MedicalDataKit">MedDataKit</a> - Toolkit for collection and analysis of Clinical Tabular Data</strong></li>
-<li><strong><a href="https://youtu.be/I04TYDyScbU?si=xIlDBhsNeTw0NZ-v">CrowdMap</a> - Crowd Monitoring Dashboard for Covid-19 via Wifi Connection</strong></li>
+<li><a href="https://idsla.github.io/FedImpute/"><strong>FedImpute</strong></a> <strong>- Toolkit for Distributed Missing Data Imputation Research</strong></li>
+<li><a href="https://github.com/sitaomin1994/MedicalDataKit"><strong>MedDataKit</strong></a> <strong>- Toolkit for Collection and Analysis of Medical Tabular Data</strong></li>
+<li><a href="https://youtu.be/I04TYDyScbU?si=xIlDBhsNeTw0NZ-v"><strong>CrowdMap</strong></a> <strong>- Crowd Monitoring Dashboard for COVID-19 via WiFi Connection</strong></li>
 </ul>
 </section>
 <section id="courses-taken" class="level2">
 <h2 class="anchored" data-anchor-id="courses-taken">Courses Taken</h2>
 <ul>
-<li><strong>Linear Statistical Model</strong>, <em>Rutgers</em>, <a href="https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/22_960_777.pdf">Syllubas</a></li>
-<li><strong>Introduction to Probability</strong>, <em>Rutgers</em>, <a href="https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/26_960_575.pdf">Syllubas</a></li>
+<li><strong>Linear Statistical Model</strong>, <em>Rutgers</em>, <a href="https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/22_960_777.pdf">Syllabus</a></li>
+<li><strong>Introduction to Probability</strong>, <em>Rutgers</em>, <a href="https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/26_960_575.pdf">Syllabus</a></li>
 <li><strong>Advanced Econometrics</strong>, <em>USC</em></li>
-<li><strong>Stochastic Process</strong>, <em>Rutgers</em>, <a href="https://www.business.rutgers.edu/sites/default/files/documents/phd-syllabus-stochastic-processes.pdf">Syllubas</a></li>
-<li><strong>Data Mining</strong>, <em>Rutgers</em>, <a href="https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/22_198_650.pdf">Syllubas</a></li>
-<li><strong>Machine Learning for Data Science</strong>, <em>USC,</em> <a href="https://web-app.usc.edu/soc/syllabus/20192/32498.pdf">Syllubas</a></li>
-<li><strong>Data Privacy</strong>, <em>Rutgers</em>, <a href="https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/26_198_645.pdf">Syllubas</a></li>
+<li><strong>Stochastic Process</strong>, <em>Rutgers</em>, <a href="https://www.business.rutgers.edu/sites/default/files/documents/phd-syllabus-stochastic-processes.pdf">Syllabus</a></li>
+<li><strong>Data Mining</strong>, <em>Rutgers</em>, <a href="https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/22_198_650.pdf">Syllabus</a></li>
+<li><strong>Machine Learning for Data Science</strong>, <em>USC,</em> <a href="https://web-app.usc.edu/soc/syllabus/20192/32498.pdf">Syllabus</a></li>
+<li><strong>Data Privacy</strong>, <em>Rutgers</em>, <a href="https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/26_198_645.pdf">Syllabus</a></li>
 <li><strong>Reinforcement Learning</strong>, <em>Rutgers</em></li>
-<li><strong>Database System</strong>, <em>USC</em>, <a href="https://web-app.usc.edu/soc/syllabus/20243/30149.pdf">Syllubas</a></li>
+<li><strong>Database System</strong>, <em>USC</em>, <a href="https://web-app.usc.edu/soc/syllabus/20243/30149.pdf">Syllabus</a></li>
 </ul>
 
 

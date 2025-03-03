@@ -21,39 +21,88 @@
     "text": "Course Assistant at University of Southern California\n\n\n\nCSCI 561 Introduction to Artificial Intelligence (Graduate), Spring 2020\nCSCI 561 Introduction to Artificial Intelligence (Graduate), Fall 2019"
   },
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "STM",
+    "section": "",
+    "text": "My research focuses on healthcare data analysis & data privacy, primarily addressing missing data imputation in distributed networks. I also apply statistical modeling for clinical research and clinical prediction models using EHR data. Additionally, I develop privacy-enhancing technologies for healthcare, bioinformatics, and financial applications."
+  },
+  {
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "STM",
+    "section": "",
+    "text": "My research focuses on healthcare data analysis & data privacy, primarily addressing missing data imputation in distributed networks. I also apply statistical modeling for clinical research and clinical prediction models using EHR data. Additionally, I develop privacy-enhancing technologies for healthcare, bioinformatics, and financial applications."
+  },
+  {
+    "objectID": "research.html#missing-data-imputation-in-distributed-healthcare-networks",
+    "href": "research.html#missing-data-imputation-in-distributed-healthcare-networks",
+    "title": "STM",
+    "section": "Missing Data Imputation in Distributed Healthcare Networks",
+    "text": "Missing Data Imputation in Distributed Healthcare Networks\nOur mission is to address the challenge of missing data imputation in distributed clinical networks. We develop imputation algorithms that enable healthcare institutions to collaboratively handle missing data without directly sharing sensitive patient information. These approaches allow improving data quality in distributed clinical networks for downstream statistical analyses and predictive tasks.\n\n\n\nMin, Sitao, et al. Cafe: Improved Federated Data Imputation by Leveraging Missing Data Heterogeneity. IEEE Transactions on Knowledge and Data Engineering. [Link]\nMin, Sitao, et al. FedImpute: A Framework for Distributed Missing Data Imputation Research with Python, submitted to Journal of Statistical Software, [Link]\nMin, Sitao, et al. Exploring the inequitable impact of data missingness on fairness in machine learning, under review by IEEE Intelligent Systems\nMin, Sitao, et al. Stochastic Gradient Based MICE Imputation over Vertically Partitioned Data, work in progress\nMin, Sitao, et al. MICE imputation for Multi-center Study via External Knowledge Transfer, work in progress"
+  },
+  {
+    "objectID": "research.html#statistical-analysis-for-clinical-research-evidence-based-studies",
+    "href": "research.html#statistical-analysis-for-clinical-research-evidence-based-studies",
+    "title": "STM",
+    "section": "Statistical Analysis for Clinical Research & Evidence-Based Studies",
+    "text": "Statistical Analysis for Clinical Research & Evidence-Based Studies\nI also collaborate with several anesthesiologists, developing statistical models and analyses to support their clinical research on topics such as patients’ respiratory function during surgery. Currently, I’m also interested in real-world evidence analyses on publicly available datasets, e.g., MIMIC.\n\n\n\nGao, X, Min, S, et al. Comparing Ventilation Modes for Elderly Patients in Prone Spinal Surgery: A Randomized Trial, submitted to BMC Journal of Anesthesiology [Draft]\nYin, W, Min, S, et al. Intrapulmonary Shunt and Oxygenation During One-Lung Ventilation: Influence of Dexmedetomidine Combined with TAES, submitted to Journal of Clinical Anesthesia [Draft]\nLi, Junchang, Min, S, et al. Impact of Dexmedetomidine and Static Lung Inflation on Post-Cardiopulmonary Bypass Pulmonary Function in Valve Surgery Patients, submitted to BMC Journal of Anesthesiology [Draft]"
+  },
+  {
+    "objectID": "research.html#ehr-data-and-clinical-prediction-model",
+    "href": "research.html#ehr-data-and-clinical-prediction-model",
+    "title": "STM",
+    "section": "EHR Data and Clinical Prediction Model",
+    "text": "EHR Data and Clinical Prediction Model\nI am also currently working on research related to Electronic Health Records (EHR) and Clinical Prediction Models (CPM).\n\n\n\nDeveloping tools to collect, process, analyze and benchmark public medical datasets - MedDataKit\nBenchmarking ML/DL based clinical prediction models combined with multimodal information for perioperative surgical data for postoperative complications prediction."
+  },
+  {
+    "objectID": "research.html#federated-learning-data-privacy-in-finance-and-bioinformatics",
+    "href": "research.html#federated-learning-data-privacy-in-finance-and-bioinformatics",
+    "title": "STM",
+    "section": "Federated Learning & Data Privacy in Finance and Bioinformatics",
+    "text": "Federated Learning & Data Privacy in Finance and Bioinformatics\nWe propose a federated XGBoost model for financial crime prediction as the 1st prize solution in US PETs Challenge. We also design solutions for data generation of SNPs data for GWAS studies for privacy preservation.\n\n\n\nAsif, H., Min, S., Wang, X., & Vaidya, J. (2024). US-UK PETs prize challenge: Anomaly detection via privacy-enhanced federated learning. IEEE transactions on privacy. [Link]\nWang, X., Min, S., & Vaidya, J. Descriptor: Synthetic Genomic Dataset with Diverse Ancestry (SynGen6). IEEE Data Descriptions. [Link]\nMin, Sitao, et al. Exploring the use of Artificial Genomes for Genome-wide Association Studies through the lens of Utility and Privacy, AMIA Annual Symposium 2024"
+  },
+  {
+    "objectID": "research.html#other-research",
+    "href": "research.html#other-research",
+    "title": "STM",
+    "section": "Other Research",
+    "text": "Other Research\nPreviously, I had experience analyzing software commit history and wifi-connection data.\n\n\n\nMin, Sitao, et al. CrowdMap: Spatiotemporal Visualization of Anonymous Occupancy Data for Pandemic Response. ACM SIGSPATIAL 2021. Link\nHe, J., Min, S., et al. (2020). The characteristics and impact of uncompilable code changes on software quality evolution. IEEE International Conference on Software Quality, Reliability and Security (QRS) 2020"
+  },
+  {
     "objectID": "experience.html",
     "href": "experience.html",
     "title": "STM",
     "section": "",
-    "text": "Data Science Intern, DvSum.ai, June - Sep 2021, CA, USA\n\n\nIntelligent Metadata Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based meta data matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
+    "text": "Data Science Intern, DvSum.ai, June - Sep 2021, CA, USA\n\n\nIntelligent Metadata Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
   },
   {
     "objectID": "experience.html#work-experience",
     "href": "experience.html#work-experience",
     "title": "STM",
     "section": "",
-    "text": "Data Science Intern, DvSum.ai, June - Sep 2021, CA, USA\n\n\nIntelligent Metadata Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based meta data matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
+    "text": "Data Science Intern, DvSum.ai, June - Sep 2021, CA, USA\n\n\nIntelligent Metadata Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
   },
   {
     "objectID": "experience.html#competitions-and-awards",
     "href": "experience.html#competitions-and-awards",
     "title": "STM",
     "section": "Competitions and Awards",
-    "text": "Competitions and Awards\n\n\nUS PETs (Privacy-enhancing Technolgy) Challenge, Financial Crime Prevention, 1st Place (1/60)\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs\n\n\n\n\n\nKaggle Predict New Medicines with BELKA, Blonde Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction."
+    "text": "Competitions and Awards\n\n\nKaggle CIBMTR - Equity in post-HCT Survival Predictions, 2025\n\nProposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.\n\nUS PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs\n\nKaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction."
   },
   {
-    "objectID": "experience.html#software-project",
-    "href": "experience.html#software-project",
+    "objectID": "experience.html#software-projects",
+    "href": "experience.html#software-projects",
     "title": "STM",
-    "section": "Software Project",
-    "text": "Software Project\nI am the author of following packages and software projects:\n\nFedImpute - Toolkit for Distributed Missing Data Imputation Research\nMedDataKit - Toolkit for collection and analysis of Clinical Tabular Data\nCrowdMap - Crowd Monitoring Dashboard for Covid-19 via Wifi Connection"
+    "section": "Software Projects",
+    "text": "Software Projects\nI am the author of the following packages and software projects:\n\nFedImpute - Toolkit for Distributed Missing Data Imputation Research\nMedDataKit - Toolkit for Collection and Analysis of Medical Tabular Data\nCrowdMap - Crowd Monitoring Dashboard for COVID-19 via WiFi Connection"
   },
   {
     "objectID": "experience.html#courses-taken",
     "href": "experience.html#courses-taken",
     "title": "STM",
     "section": "Courses Taken",
-    "text": "Courses Taken\n\nLinear Statistical Model, Rutgers, Syllubas\nIntroduction to Probability, Rutgers, Syllubas\nAdvanced Econometrics, USC\nStochastic Process, Rutgers, Syllubas\nData Mining, Rutgers, Syllubas\nMachine Learning for Data Science, USC, Syllubas\nData Privacy, Rutgers, Syllubas\nReinforcement Learning, Rutgers\nDatabase System, USC, Syllubas"
+    "text": "Courses Taken\n\nLinear Statistical Model, Rutgers, Syllabus\nIntroduction to Probability, Rutgers, Syllabus\nAdvanced Econometrics, USC\nStochastic Process, Rutgers, Syllabus\nData Mining, Rutgers, Syllabus\nMachine Learning for Data Science, USC, Syllabus\nData Privacy, Rutgers, Syllabus\nReinforcement Learning, Rutgers\nDatabase System, USC, Syllabus"
   },
   {
     "objectID": "about.html",
@@ -67,6 +116,6 @@
     "href": "index.html",
     "title": "Sitao Min",
     "section": "",
-    "text": "Hi there! I am a Ph.D. candidate at Rutgers Business School, working under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA). I hold a Master’s in Computer Science from USC and Bachelor’s in Physics from Zhejiang University, China.\nMy research focuses on healthcare data science, particularly missing data imputation (e.g., in distributed healthcare networks), clinical and EHR data analysis (e.g., real-world evidence (RWE)), federated learning and Synthetic Data Generation. I am passionate about developing statistical and data science methods to advance evidence-based healthcare analysis."
+    "text": "Hi there! I am a Ph.D. candidate at Rutgers University, under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA). I hold a Master’s in Computer Science from USC and a Bachelor’s degree from Zhejiang University, China.\nMy research focuses on healthcare data science, particularly missing data imputation (e.g., in distributed healthcare networks), clinical and EHR data analysis (e.g., real-world evidence (RWE)), federated learning, and data privacy. I am passionate about developing statistical and data science methods for healthcare data analysis."
   }
 ]

@@ -1,6 +1,6 @@
 ---
 title: "Sitao Min"
-image: linkedin.jfif
+image: img2.jpg
 about:
   template: jolla
   links:
@@ -16,6 +16,6 @@ about:
     # (additional links excluded for brevity)
 ---
 
-Hi there! I am a Ph.D. candidate at Rutgers Business School, working under the supervision of [Dr. Jaideep Vaidya](https://sites.rutgers.edu/jsvaidya/) at the Rutgers Institute of Data Science Learning and Application ([Rutgers iDSLA](https://sites.rutgers.edu/idsla/)). I hold a Master's in Computer Science from USC and Bachelor's in Physics from Zhejiang University, China.
+Hi there! I am a Ph.D. candidate at Rutgers University, under the supervision of [Dr. Jaideep Vaidya](https://sites.rutgers.edu/jsvaidya/) at the Rutgers Institute of Data Science Learning and Application ([Rutgers iDSLA](https://sites.rutgers.edu/idsla/)). I hold a Master's in Computer Science from USC and a Bachelor's degree from Zhejiang University, China.
 
-My research focuses on healthcare data science, particularly **missing data imputation** (e.g., in distributed healthcare networks), **clinical and EHR data analysis** (e.g., real-world evidence (RWE)), **federated learning** and **Synthetic Data Generation**. I am passionate about developing statistical and data science methods to advance evidence-based healthcare analysis.
+My research focuses on healthcare data science, particularly **missing data imputation** (e.g., in distributed healthcare networks), **clinical and EHR data analysis** (e.g., real-world evidence (RWE)), **federated learning**, and **data privacy**. I am passionate about developing statistical and data science methods for healthcare data analysis.

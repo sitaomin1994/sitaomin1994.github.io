@@ -4,6 +4,7 @@ project:
 
 website:
   title: "STM"
+  favicon: favicon.png
   navbar:
     left:
       - href: index.qmd
@@ -15,7 +16,7 @@ website:
       - href: teaching.qmd
         text: Teaching
     collapse: true
-    search: false
+    search: true
     background: primary
     back-to-top-navigation: true
     page-footer: "Copyright 2024, Sitao Min"
@@ -23,7 +24,7 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: lumen
     css: styles.css
     toc: false
 

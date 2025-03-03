@@ -1,5 +1,8 @@
 ---
-format: html
+format: 
+  html:
+    css: styles.css
+    fontsize: 1.0em
 ---
 
 ## Work Experience
@@ -10,7 +13,7 @@ format: html
 ::: project
 **Intelligent Metadata Management Pipeline**
 
-Developed an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based meta data matching and quality validation, and autonomous lineage tracking.
+Developed an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.
 
 **Automated Data Science Workflow**
 
@@ -21,6 +24,23 @@ Created an end-to-end pipeline for autonomous data cleaning, profiling, feature 
 ## Competitions and Awards
 
 :::: experience-container
+::: project
+**Kaggle CIBMTR - Equity in post-HCT Survival Predictions, 2025**
+
+-   Proposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.
+
+**US PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)**
+
+-   Designed privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.
+-   **Challenge Report: [US-UK PETs Challenge](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/challenges/us-uk-pets-prize) \| Solution: [Scarlet-PETs](https://github.com/usnistgov/PrivacyEngCollabSpace/tree/master/tools/de-identification/Scarlet-PETs)**
+
+**Kaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024**
+
+-   Processed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction.
+:::
+::::
+
+<!-- :::: experience-container
 ::: project
 **US PETs (Privacy-enhancing Technolgy) Challenge, Financial Crime Prevention, 1st Place (1/60)**
 
@@ -35,24 +55,24 @@ Created an end-to-end pipeline for autonomous data cleaning, profiling, feature 
 
 -   Processed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction.
 :::
-::::
+:::: -->
 
-## Software Project
+## Software Projects
 
-I am the author of following packages and software projects:
+I am the author of the following packages and software projects:
 
--   **[FedImpute](https://idsla.github.io/FedImpute/) - Toolkit for Distributed Missing Data Imputation Research**
--   **[MedDataKit](https://github.com/sitaomin1994/MedicalDataKit) - Toolkit for collection and analysis of Clinical Tabular Data**
--   **[CrowdMap](https://youtu.be/I04TYDyScbU?si=xIlDBhsNeTw0NZ-v) - Crowd Monitoring Dashboard for Covid-19 via Wifi Connection**
+-   [**FedImpute**](https://idsla.github.io/FedImpute/) **- Toolkit for Distributed Missing Data Imputation Research**
+-   [**MedDataKit**](https://github.com/sitaomin1994/MedicalDataKit) **- Toolkit for Collection and Analysis of Medical Tabular Data**
+-   [**CrowdMap**](https://youtu.be/I04TYDyScbU?si=xIlDBhsNeTw0NZ-v) **- Crowd Monitoring Dashboard for COVID-19 via WiFi Connection**
 
 ## Courses Taken
 
--   **Linear Statistical Model**, *Rutgers*, [Syllubas](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/22_960_777.pdf)
--   **Introduction to Probability**, *Rutgers*, [Syllubas](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/26_960_575.pdf)
+-   **Linear Statistical Model**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/22_960_777.pdf)
+-   **Introduction to Probability**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/26_960_575.pdf)
 -   **Advanced Econometrics**, *USC*
--   **Stochastic Process**, *Rutgers*, [Syllubas](https://www.business.rutgers.edu/sites/default/files/documents/phd-syllabus-stochastic-processes.pdf)
--   **Data Mining**, *Rutgers*, [Syllubas](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/22_198_650.pdf)
--   **Machine Learning for Data Science**, *USC,* [Syllubas](https://web-app.usc.edu/soc/syllabus/20192/32498.pdf)
--   **Data Privacy**, *Rutgers*, [Syllubas](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/26_198_645.pdf)
+-   **Stochastic Process**, *Rutgers*, [Syllabus](https://www.business.rutgers.edu/sites/default/files/documents/phd-syllabus-stochastic-processes.pdf)
+-   **Data Mining**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/22_198_650.pdf)
+-   **Machine Learning for Data Science**, *USC,* [Syllabus](https://web-app.usc.edu/soc/syllabus/20192/32498.pdf)
+-   **Data Privacy**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/26_198_645.pdf)
 -   **Reinforcement Learning**, *Rutgers*
--   **Database System**, *USC*, [Syllubas](https://web-app.usc.edu/soc/syllabus/20243/30149.pdf)
+-   **Database System**, *USC*, [Syllabus](https://web-app.usc.edu/soc/syllabus/20243/30149.pdf)
