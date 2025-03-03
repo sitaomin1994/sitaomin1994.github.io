@@ -4,7 +4,6 @@ format:
         title-block-banner: false
         title-block-style: none
         css: styles.css
-        fontsize: 1.0em
 ---
 
 ## Teaching Assistant at Rutgers University

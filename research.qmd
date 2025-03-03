@@ -2,7 +2,6 @@
 format: 
   html:
     css: styles.css
-    fontsize: 1.0em
 ---
 
 ## Research Interests
