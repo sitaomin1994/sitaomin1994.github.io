@@ -27,6 +27,7 @@ format:
     theme: lumen
     css: styles.css
     toc: false
+    fontsize: 1.0em
 
 editor: visual
 
