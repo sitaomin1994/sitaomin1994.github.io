@@ -1,4 +1,8 @@
 ---
+format:
+    html:
+        css: style.css
+        fontsize: 1.0em
 ---
 
 ## Work Experience
