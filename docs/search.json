@@ -35,6 +35,13 @@
     "text": "My research focuses on healthcare data analysis & data privacy, primarily addressing missing data imputation in distributed networks. I also apply statistical modeling for clinical research and clinical prediction models using EHR data. Additionally, I develop privacy-enhancing technologies for healthcare, bioinformatics, and financial applications."
   },
   {
+    "objectID": "research.html#federated-learning-data-privacy-in-finance-and-bioinformatics",
+    "href": "research.html#federated-learning-data-privacy-in-finance-and-bioinformatics",
+    "title": "STM",
+    "section": "Federated Learning & Data Privacy in Finance and Bioinformatics",
+    "text": "Federated Learning & Data Privacy in Finance and Bioinformatics\nWe propose a federated XGBoost model for financial crime prediction as the 1st prize solution in US PETs Challenge. We also design solutions for data generation of SNPs data for GWAS studies for privacy preservation.\n\n\n\nAsif, H., Min, S., Wang, X., & Vaidya, J. US-UK PETs prize challenge: Anomaly detection via privacy-enhanced federated learning. IEEE transactions on privacy. 2024 [Link]\nWang, X., Min, S., & Vaidya, J. Descriptor: Synthetic Genomic Dataset with Diverse Ancestry (SynGen6). IEEE Data Descriptions. [Link]\nWang, X., Min, S., & Vaidya, J. Exploring the use of Artificial Genomes for Genome-wide Association Studies through the lens of Utility and Privacy, AMIA Annual Symposium 2024"
+  },
+  {
     "objectID": "research.html#missing-data-imputation-in-distributed-healthcare-networks",
     "href": "research.html#missing-data-imputation-in-distributed-healthcare-networks",
     "title": "STM",
@@ -54,13 +61,6 @@
     "title": "STM",
     "section": "EHR Data and Clinical Prediction Model",
     "text": "EHR Data and Clinical Prediction Model\nI am also currently working on research related to Electronic Health Records (EHR) and Clinical Prediction Models (CPM).\n\n\n\nDeveloping tools to collect, process, analyze and benchmark public medical datasets - MedDataKit\nBenchmarking ML/DL based clinical prediction models combined with multimodal information for perioperative surgical data for postoperative complications prediction."
-  },
-  {
-    "objectID": "research.html#federated-learning-data-privacy-in-finance-and-bioinformatics",
-    "href": "research.html#federated-learning-data-privacy-in-finance-and-bioinformatics",
-    "title": "STM",
-    "section": "Federated Learning & Data Privacy in Finance and Bioinformatics",
-    "text": "Federated Learning & Data Privacy in Finance and Bioinformatics\nWe propose a federated XGBoost model for financial crime prediction as the 1st prize solution in US PETs Challenge. We also design solutions for data generation of SNPs data for GWAS studies for privacy preservation.\n\n\n\nAsif, H., Min, S., Wang, X., & Vaidya, J. US-UK PETs prize challenge: Anomaly detection via privacy-enhanced federated learning. IEEE transactions on privacy. 2024 [Link]\nWang, X., Min, S., & Vaidya, J. Descriptor: Synthetic Genomic Dataset with Diverse Ancestry (SynGen6). IEEE Data Descriptions. [Link]\nWang, X., Min, S., & Vaidya, J. Exploring the use of Artificial Genomes for Genome-wide Association Studies through the lens of Utility and Privacy, AMIA Annual Symposium 2024"
   },
   {
     "objectID": "research.html#other-research",
