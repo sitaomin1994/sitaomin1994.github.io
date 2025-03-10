@@ -39,7 +39,7 @@
     "href": "research.html#missing-data-imputation-in-distributed-healthcare-networks",
     "title": "STM",
     "section": "Missing Data Imputation in Distributed Healthcare Networks",
-    "text": "Missing Data Imputation in Distributed Healthcare Networks\nOur mission is to address the challenge of missing data imputation in distributed clinical networks. We develop imputation algorithms that enable healthcare institutions to collaboratively handle missing data without directly sharing sensitive patient information. These approaches allow improving data quality in distributed clinical networks for downstream statistical analyses and predictive tasks.\n\n\n\nMin, S., et al. Cafe: Improved Federated Data Imputation by Leveraging Missing Data Heterogeneity. IEEE Transactions on Knowledge and Data Engineering. [Link]\nMin, S., et al. FedImpute: A Framework for Distributed Missing Data Imputation Research with Python, submitted to Journal of Statistical Software, [Link]\nMin, S., et al. Exploring the inequitable impact of data missingness on fairness in machine learning, under review by IEEE Intelligent Systems\nMin, S., et al. Stochastic Gradient Based MICE Imputation over Vertically Partitioned Data, work in progress\nMin, S., et al. MICE imputation for Multi-center Study via External Knowledge Transfer, work in progress"
+    "text": "Missing Data Imputation in Distributed Healthcare Networks\nOur mission is to address the challenge of missing data imputation in distributed clinical networks. We develop imputation algorithms that enable healthcare institutions to collaboratively handle missing data without directly sharing sensitive patient information. These approaches allow improving data quality in distributed clinical networks for downstream statistical analyses and predictive tasks.\n\n\n\nMin, S., et al. Cafe: Improved Federated Data Imputation by Leveraging Missing Data Heterogeneity. IEEE Transactions on Knowledge and Data Engineering. [Link]\nMin, S., et al. FedImpute: A Framework for Distributed Missing Data Imputation Research with Python, submitted to Journal of Statistical Software, [Link]\nMin, S., et al. Exploring the inequitable impact of data missingness on fairness in machine learning, IEEE Intelligent Systems [Link]\nMin, S., et al. Stochastic Gradient Based MICE Imputation over Vertically Partitioned Data, work in progress\nMin, S., et al. MICE imputation for Multi-center Study via External Knowledge Transfer, work in progress"
   },
   {
     "objectID": "research.html#statistical-analysis-for-clinical-research-evidence-based-studies",
@@ -91,11 +91,11 @@
     "text": "Competitions and Awards\n\n\nKaggle CIBMTR - Equity in post-HCT Survival Predictions, Silver Medal (74/3084), 2025\n\nProposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.\n\nUS PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs\n\nKaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction."
   },
   {
-    "objectID": "experience.html#software-projects",
-    "href": "experience.html#software-projects",
+    "objectID": "experience.html#software",
+    "href": "experience.html#software",
     "title": "STM",
-    "section": "Software Projects",
-    "text": "Software Projects\nI am the author of the following packages and software projects:\n\nFedImpute - Toolkit for Distributed Missing Data Imputation Research\nMedDataKit - Toolkit for Collection and Analysis of Medical Tabular Data\nCrowdMap - Crowd Monitoring Dashboard for COVID-19 via WiFi Connection"
+    "section": "Software",
+    "text": "Software\nI am the author of the following packages and software projects:\n\nFedImpute - Toolkit for Distributed Missing Data Imputation Research\nMedDataKit - Toolkit for Collection and Analysis of Medical Tabular Data\nCrowdMap - Crowd Monitoring Dashboard for COVID-19 via WiFi Connection"
   },
   {
     "objectID": "experience.html#courses-taken",

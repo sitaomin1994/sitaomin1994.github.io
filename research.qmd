@@ -13,7 +13,7 @@ Our mission is to address the challenge of missing data imputation in distribute
 ::: project
 - Min, S., et al. **Cafe: Improved Federated Data Imputation by Leveraging Missing Data Heterogeneity.** *IEEE Transactions on Knowledge and Data Engineering*.  [[Link]](https://ieeexplore.ieee.org/abstract/document/10858753?casa_token=GEo-JrjzP4UAAAAA:5uR0CwXwPfW8Pc1P9ECzlADx71-hulne_hQNJAHxI_P513qTBZHTIoeuer5V8bFOzypxP_6BeGg){target="_blank"}
 - Min, S., et al. **FedImpute: A Framework for Distributed Missing Data Imputation Research with Python**, submitted to *Journal of Statistical Software*, [[Link]](https://idsla.github.io/FedImpute/){target="_blank"}
-- Min, S., et al. **Exploring the inequitable impact of data missingness on fairness in machine learning**, under review by *IEEE Intelligent Systems*
+- Min, S., et al. **Exploring the inequitable impact of data missingness on fairness in machine learning**, *IEEE Intelligent Systems* [[Link]](./papers/fairness.pdf){target="_blank"}
 - Min, S., et al. **Stochastic Gradient Based MICE Imputation over Vertically Partitioned Data**, work in progress
 - Min, S., et al. **MICE imputation for Multi-center Study via External Knowledge Transfer**, work in progress
 <!-- - **Cafe: Improved Federated Data Imputation by Leveraging Missing Data Heterogeneity.** *IEEE Transactions on Knowledge and Data Engineering*.  [[Link]](https://ieeexplore.ieee.org/abstract/document/10858753?casa_token=GEo-JrjzP4UAAAAA:5uR0CwXwPfW8Pc1P9ECzlADx71-hulne_hQNJAHxI_P513qTBZHTIoeuer5V8bFOzypxP_6BeGg){target="_blank"}
