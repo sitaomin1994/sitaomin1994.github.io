@@ -5,18 +5,6 @@
 
 My research focuses on healthcare data analysis & data privacy, primarily addressing missing data imputation in distributed networks. I also apply statistical modeling for clinical research and clinical prediction models using EHR data. Additionally, I develop privacy-enhancing technologies for healthcare, bioinformatics, and financial applications.
 
-## Federated Learning & Data Privacy in Finance and Bioinformatics
-
-We propose a federated XGBoost model for financial crime prediction as the 1st prize solution in US PETs Challenge. We also design solutions for data generation of SNPs data for GWAS studies for privacy preservation.
-
-::: experience-container
-::: project
-- Asif, H., Min, S., Wang, X., & Vaidya, J. **US-UK PETs prize challenge: Anomaly detection via privacy-enhanced federated learning**. *IEEE transactions on privacy. 2024*  [[Link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10507758){target="_blank"}
-- Wang, X., Min, S., & Vaidya, J. **Descriptor: Synthetic Genomic Dataset with Diverse Ancestry (SynGen6). IEEE Data Descriptions.**  [[Link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768919){target="_blank"}
-- Wang, X., Min, S., & Vaidya, J. **Exploring the use of Artificial Genomes for Genome-wide Association Studies through the lens of Utility and Privacy**, *AMIA Annual Symposium 2024*
-:::
-::::
-
 ## Missing Data Imputation in Distributed Healthcare Networks
 
 Our mission is to address the challenge of missing data imputation in distributed clinical networks. We develop imputation algorithms that enable healthcare institutions to collaboratively handle missing data without directly sharing sensitive patient information. These approaches allow improving data quality in distributed clinical networks for downstream statistical analyses and predictive tasks.
@@ -36,7 +24,6 @@ Our mission is to address the challenge of missing data imputation in distribute
 :::
 ::::
 
-
 ## Statistical Analysis for Clinical Research & Evidence-Based Studies
 
 I also collaborate with several anesthesiologists, developing statistical models and analyses to support their clinical research on topics such as patients' respiratory function during surgery. Currently, I'm also interested in real-world evidence analyses on publicly available datasets, e.g., MIMIC.
@@ -49,6 +36,18 @@ I also collaborate with several anesthesiologists, developing statistical models
 <!-- - **Comparing Ventilation Modes for Elderly Patients in Prone Spinal Surgery: A Randomized Trial**, submitted to *BMC Journal of Anesthesiology* (work with Xin Gao)  [[Draft]](./papers/Paper_1.pdf){target="_blank"}
 - **Intrapulmonary Shunt and Oxygenation During One-Lung Ventilation: Influence of Dexmedetomidine Combined with TAES**, submitted to *Journal of Clinical Anesthesia*  (work with Yinjuan Wei) [[Draft]]()
 - **Impact of Dexmedetomidine and Static Lung Inflation on Post-Cardiopulmonary Bypass Pulmonary Function in Valve Surgery Patients**, submitted to *BMC Journal of Anesthesiology* (work with Juanchang Li) [[Draft]]() -->
+:::
+::::
+
+## Federated Learning & Data Privacy in Finance and Bioinformatics
+
+We propose a federated XGBoost model for financial crime prediction as the 1st prize solution in US PETs Challenge. We also design solutions for data generation of SNPs data for GWAS studies for privacy preservation.
+
+::: experience-container
+::: project
+- Asif, H., Min, S., Wang, X., & Vaidya, J. **US-UK PETs prize challenge: Anomaly detection via privacy-enhanced federated learning**. *IEEE transactions on privacy. 2024*  [[Link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10507758){target="_blank"}
+- Wang, X., Min, S., & Vaidya, J. **Descriptor: Synthetic Genomic Dataset with Diverse Ancestry (SynGen6). IEEE Data Descriptions.**  [[Link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768919){target="_blank"}
+- Wang, X., Min, S., & Vaidya, J. **Exploring the use of Artificial Genomes for Genome-wide Association Studies through the lens of Utility and Privacy**, *AMIA Annual Symposium 2024*
 :::
 ::::
 
