@@ -25,7 +25,7 @@ Created an end-to-end pipeline for autonomous data cleaning, profiling, feature 
 
 :::: experience-container
 ::: project
-**Kaggle CIBMTR - Equity in post-HCT Survival Predictions, 2025**
+**Kaggle CIBMTR - Equity in post-HCT Survival Predictions, Silver Medal (74/3084), 2025**
 
 -   Proposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.
 

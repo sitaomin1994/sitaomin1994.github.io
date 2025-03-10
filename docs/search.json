@@ -88,7 +88,7 @@
     "href": "experience.html#competitions-and-awards",
     "title": "STM",
     "section": "Competitions and Awards",
-    "text": "Competitions and Awards\n\n\nKaggle CIBMTR - Equity in post-HCT Survival Predictions, 2025\n\nProposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.\n\nUS PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs\n\nKaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction."
+    "text": "Competitions and Awards\n\n\nKaggle CIBMTR - Equity in post-HCT Survival Predictions, Silver Medal (74/3084), 2025\n\nProposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.\n\nUS PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs\n\nKaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction."
   },
   {
     "objectID": "experience.html#software-projects",
@@ -116,6 +116,6 @@
     "href": "index.html",
     "title": "Sitao Min",
     "section": "",
-    "text": "Hi there! I am a Ph.D. candidate at Rutgers University, under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA). I hold a Master’s in Computer Science from USC and a Bachelor’s degree from Zhejiang University, China.\nMy research focuses on healthcare data science, particularly missing data imputation (e.g., in distributed healthcare networks), clinical and EHR data analysis (e.g., real-world evidence (RWE)), federated learning, and data privacy. I am passionate about developing statistical and data science methods for healthcare data analysis."
+    "text": "Hi there! I am a Ph.D. candidate at Rutgers University, under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA). I hold a Master’s in Computer Science from USC and a Bachelor’s degree from Zhejiang University, China.\nMy research focuses on healthcare data science, particularly missing data imputation (e.g., in distributed healthcare networks), clinical and EHR data analysis (e.g., real-world evidence (RWE)), federated learning, and data privacy."
   }
 ]

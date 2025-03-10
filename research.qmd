@@ -32,7 +32,7 @@ I also collaborate with several anesthesiologists, developing statistical models
 ::: experience-container
 ::: project
 - Gao, X., Min, S., et al. **Comparing Ventilation Modes for Elderly Patients in Prone Spinal Surgery: A Randomized Trial**, submitted to *BMC Journal of Anesthesiology*  [[Draft]](./papers/Paper_1.pdf){target="_blank"}
-- Yin, W., Min, S., et al. **Intrapulmonary Shunt and Oxygenation During One-Lung Ventilation: Influence of Dexmedetomidine Combined with TAES**, submitted to *Journal of Clinical Anesthesia*  [[Draft]]()
+- Yin, W., Min, S., et al. **Intrapulmonary Shunt and Oxygenation During One-Lung Ventilation: Influence of Dexmedetomidine Combined with TAES**, submitted to *Journal of Clinical Anesthesia*  [[Draft]](./papers/Paper_2.pdf){target="_blank"}
 - Li, J., Min, S., et al. **Impact of Dexmedetomidine and Static Lung Inflation on Post-Cardiopulmonary Bypass Pulmonary Function in Valve Surgery Patients**, submitted to *BMC Journal of Anesthesiology*  [[Draft]]()
 <!-- - **Comparing Ventilation Modes for Elderly Patients in Prone Spinal Surgery: A Randomized Trial**, submitted to *BMC Journal of Anesthesiology* (work with Xin Gao)  [[Draft]](./papers/Paper_1.pdf){target="_blank"}
 - **Intrapulmonary Shunt and Oxygenation During One-Lung Ventilation: Influence of Dexmedetomidine Combined with TAES**, submitted to *Journal of Clinical Anesthesia*  (work with Yinjuan Wei) [[Draft]]()
