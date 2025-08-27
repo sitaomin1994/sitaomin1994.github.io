@@ -72,9 +72,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Sitao Min",
+    "title": "STM",
     "section": "",
-    "text": "Hi there! I am a Ph.D. candidate at Rutgers Business School, under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA). I studied data management and healthcare data science, particularly data quality and missing data (e.g., in distributed healthcare networks), AI/ML applications in clinical and EHR data, federated learning, and data privacy."
+    "text": "Hi there! I am a Ph.D. candidate at Rutgers Business School, under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA). I studied data management and healthcare data science, particularly data quality and missing data (e.g., in distributed healthcare networks), AI/ML applications in clinical and EHR data, federated learning, and data privacy.\nI study how international NGOs work in authoritarian countries, and I received the 2016–2018 Emerging Scholar Dissertation Award from the International Society for Third Sector Research (ISTR). I do research in public administration and policy, nonprofit management, international relations, and comparative politics.\nI teach courses on program evaluation and causal inference, statistics and data science, data visualization, economics, and science communication. I’m also a certified RStudio instructor and a Posit Academy mentor and absolutely love teaching how to use R and the tidyverse."
   },
   {
     "objectID": "about.html",
