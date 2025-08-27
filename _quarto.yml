@@ -5,6 +5,8 @@ project:
 website:
   title: "STM"
   favicon: favicon.png
+  twitter-card: true
+  open-graph: true
   navbar:
     left:
       - href: index.qmd
@@ -21,13 +23,19 @@ website:
     back-to-top-navigation: true
     page-footer: "Copyright 2024, Sitao Min"
     max-width: 1500px
+    pinned: true
 
 format:
   html:
-    theme: lumen
+    theme: flatly
+    page-layout: full
     css: styles.css
     toc: false
-    fontsize: 1.0em
+    fontsize: 1.1em
+    grid:
+      sidebar-width: 200px
+      body-width: 1000px
+      margin-width: 200px
 
 editor: visual
 
