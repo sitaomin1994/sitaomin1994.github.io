@@ -1,0 +1,21 @@
+---
+title: "Sitao Min"
+image: img2.jpg
+about:
+  id: jolla_id
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/sitao-m-605ab2134/
+    - icon: github
+      text: GitHub
+      href: https://github.com/sitaomin1994/
+    - icon: email
+      text: Email
+      href: mailto:sm2370@rutgers.edu
+    # (additional links excluded for brevity)
+---
+Hi there! I am a Ph.D. candidate at Rutgers University, under the supervision of [Dr. Jaideep Vaidya](https://sites.rutgers.edu/jsvaidya/){target="_blank"} at the Rutgers Institute of Data Science Learning and Application ([Rutgers iDSLA](https://sites.rutgers.edu/idsla/){target="_blank"}). I hold a Master's in Computer Science from USC and a Bachelor's degree from Zhejiang University, China.
+
+My research focuses on healthcare data science, particularly **missing data imputation** (e.g., in distributed healthcare networks), **clinical and EHR data analysis** (e.g., real-world evidence (RWE)), **federated learning**, and **data privacy**.

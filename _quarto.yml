@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "STM"
+  favicon: favicon.png
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: experience.qmd
+        text: Experience
+      - href: teaching.qmd
+        text: Teaching
+    collapse: true
+    search: true
+    background: primary
+    back-to-top-navigation: true
+    page-footer: "Copyright 2024, Sitao Min"
+    max-width: 1500px
+
+format:
+  html:
+    theme: lumen
+    css: styles.css
+    toc: false
+    fontsize: 1.0em
+
+editor: visual
+
