@@ -4,7 +4,7 @@
     "href": "teaching.html",
     "title": "STM",
     "section": "",
-    "text": "Introduction to Cybersecurity (Undergraduate), Spring 2023\nDeep Learning (Graduate), Spring 2023\nData Mining (Graduate), Fall 2022\nData Mining (Graduate), Spring 2022\nIntroduction to Data Structure and Algorithm (Graduate), Fall 2021\nFoundations of Business Programming (BAIT 388) (Undergraduate), Spring 2021\nFoundations of Business Programming (BAIT 388) (Undergraduate), Fall 2020"
+    "text": "Teaching Interests\n\n\nData Management, Database & Big Data, AI & Deep Learning, Business Analytics, Management Information Systems, Programming Foundations, Introduction to Data Science\n\n\n\nTeaching Experience\n\n\nRutgers University\n\n\n\n\nGuest Lecturer, Data Mining (Graduate), Spring 2025\n\nTopics in data quality, AI ethics, and fairness\n\nGuest Lecturer, Data Privacy (Graduate), Fall 2024\n\nTopics in data privacy and crypto algorithms\n\nTeaching Assistant, Introduction to Cybersecurity (Undergraduate), Spring 2023\nTeaching Assistant, Deep Learning (Graduate), Spring 2023\nTeaching Assistant, Data Mining (Graduate), Fall 2022\nTeaching Assistant, Data Mining (Graduate), Spring 2022\nTeaching Assistant, Introduction to Data Structure and Algorithm (Graduate), Fall 2021\nTeaching Assistant, Foundations of Business Programming (BAIT 388) (Undergraduate), Spring, Fall 2020\n\n\n\n\nUniversity of Southern California\n\n\n\n\nTeaching Assistant, CSCI 561 Introduction to Artificial Intelligence (Graduate), Spring 2020\nTeaching Assistant, CSCI 561 Introduction to Artificial Intelligence (Graduate), Fall 2019\n\n\n\n\n\nCourses Taken\n\n\n\n\nLinear Statistical Model, Rutgers, Syllabus\nIntroduction to Probability, Rutgers, Syllabus\nAdvanced Econometrics, USC\nStochastic Process, Rutgers, Syllabus\nData Mining, Rutgers, Syllabus\nMachine Learning for Data Science, USC, Syllabus\nData Privacy, Rutgers, Syllabus\nReinforcement Learning, Rutgers\nDatabase System, USC, Syllabus"
   },
   {
     "objectID": "teaching.html#teaching-assistant-at-rutgers-university",
@@ -88,7 +88,7 @@
     "href": "experience.html",
     "title": "STM",
     "section": "",
-    "text": "Work Experience\n\nResearch Assistant, Rutgers i-DSLA, Sep 2023 - Present\n\n\nData Quality Management and Artificial Intelligence\nDesigned missing data imputation algorithms for distributed healthcare networks and applied generative AI models (VAEs, GANs, transformers) for data quality improvement, focusing on utility, privacy, and ethical considerations to establish responsible AI practices in production environments.\nGenerative AI for Biomedical Informatics\nDeveloped scalable GWAS algorithms in distributed environments and applied generative AI models (VAEs, GANs, Diffusion models) for Type 2 diabetes and dementia SNP analysis, advancing for early disease detection and personalized therapeutic target identification.\nFinancial Data Security and Federated Learning\nProposed XgBoost-based federated learning framework for detecting financial anomaly transactions, ensuring privacy and security of participant dataset.\n\n\nData Science Intern, DvSum.ai, June - Sep 2021\n\n\nIntelligent Data Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
+    "text": "Work Experience\n\n\n\n\nRU\n\n\n\n\n\nResearch Assistant | Sep 2023 - Present\n\n\nRutgers Institute for Data Science, Learning and Application\n\n\n\n\nData Quality Management and Artificial Intelligence\nDesigned missing data imputation algorithms for distributed healthcare networks and applied generative AI models (VAEs, GANs, transformers) for data quality improvement, focusing on utility, privacy, and ethical considerations to establish responsible AI practices in production environments.\nGenerative AI for Biomedical Informatics\nDeveloped scalable GWAS algorithms in distributed environments and applied generative AI models (VAEs, GANs, Diffusion models) for Type 2 diabetes and dementia SNP analysis, advancing for early disease detection and personalized therapeutic target identification.\nFinancial Crime Detection using Secure Learning\nProposed XgBoost-based federated learning framework for detecting financial anomaly transactions, ensuring privacy and security of participant dataset.\n\n\n\n\n\n\n\n\n\n\n\nData Science Intern | June - Sep 2021\n\n\nDvSum.ai\n\n\n\n\nData Management and Governance Layer for Enterprise AI\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
   },
   {
     "objectID": "experience.html#work-experience",
@@ -256,7 +256,7 @@
     "href": "projects.html",
     "title": "STM",
     "section": "",
-    "text": "Kaggle CIBMTR - Equity in post-HCT Survival Predictions, Silver Medal (74/3084), 2025\n\nProposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.\n\nUS PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs\n\nKaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction."
+    "text": "Projects\n\n\n\nPost-HCT Survival Predictions using ML/DL, Kaggle CMBTR Challenge, Silver Medal (74/3084), 2025\n\nProposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.\n\n\n\n\n\nPredict Protein-molecule Interaction for New Medicines using Deep Learning, Kaggle Challenge, Bronze Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction.\n\n\n\n\n\nFinancial Crime Prevention using Secure AI, US PETs Challenge, 1st Place (1/60), 2024\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs"
   },
   {
     "objectID": "projects.html#education",
@@ -299,5 +299,26 @@
     "title": "STM",
     "section": "",
     "text": "Kaggle CIBMTR - Equity in post-HCT Survival Predictions, Silver Medal (74/3084), 2025\n\nProposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.\n\nUS PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs\n\nKaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction."
+  },
+  {
+    "objectID": "teaching.html#teaching-experience-at-rutgers-university",
+    "href": "teaching.html#teaching-experience-at-rutgers-university",
+    "title": "STM",
+    "section": "Teaching Experience at Rutgers University",
+    "text": "Teaching Experience at Rutgers University\n\n\n\nIntroduction to Cybersecurity (Undergraduate), Spring 2023\nDeep Learning (Graduate), Spring 2023\nData Mining (Graduate), Fall 2022\nData Mining (Graduate), Spring 2022\nIntroduction to Data Structure and Algorithm (Graduate), Fall 2021\nFoundations of Business Programming (BAIT 388) (Undergraduate), Spring 2021\nFoundations of Business Programming (BAIT 388) (Undergraduate), Fall 2020"
+  },
+  {
+    "objectID": "teaching.html#teaching-experience-at-university-of-southern-california",
+    "href": "teaching.html#teaching-experience-at-university-of-southern-california",
+    "title": "STM",
+    "section": "Teaching Experience at University of Southern California",
+    "text": "Teaching Experience at University of Southern California\n\n\n\nCSCI 561 Introduction to Artificial Intelligence (Graduate), Spring 2020\nCSCI 561 Introduction to Artificial Intelligence (Graduate), Fall 2019"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "STM",
+    "section": "",
+    "text": "I am the author of the following packages and software projects:\n\nFedImpute - Toolkit for Distributed Missing Data Imputation Research\nMedDataKit - Toolkit for Collection and Analysis of Medical Tabular Data\nCrowdMap - Crowd Monitoring Dashboard for COVID-19 via WiFi Connection"
   }
 ]

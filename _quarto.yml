@@ -16,9 +16,11 @@ website:
       - href: research.qmd
         text: Research
       - href: projects.qmd
-        text: Projects & Software
+        text: Projects
       - href: teaching.qmd
         text: Teaching
+      - href: software.qmd
+        text: Software
     collapse: true
     search: true
     background: dark

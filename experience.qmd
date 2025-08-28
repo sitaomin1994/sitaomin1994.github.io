@@ -11,8 +11,57 @@ format:
 
 <style>
 .project p:has(strong) { margin-bottom: 0.25rem !important; }
-.experience-container { font-size: 0.9rem !important; }
+.experience-container { 
+  font-size: 0.9rem !important; 
+}
 .highlight-tech { font-weight: bold; color: rgb(105, 106, 108); }
+
+.experience-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.company-logo {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.company-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.experience-content {
+  flex: 1;
+}
+
+.experience-header {
+  margin-bottom: 1rem;
+}
+
+.position-line {
+  font-weight: 600;
+  font-size: 1.0rem;
+  margin-bottom: 0.25rem;
+}
+
+.company-line {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+.company-line a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.company-line a:hover {
+  text-decoration: underline;
+}
 </style>
 
 <!-- ## Education
@@ -40,7 +89,15 @@ Physics | 1st class merit (top 5%)
 
 ---
 
-**Research Assistant, [Rutgers i-DSLA](https://sites.rutgers.edu/idsla/){target="_blank"}, Sep 2023 - Present**
+<div class="experience-item">
+<div class="company-logo">
+<div style="width: 50px; height: 50px; background-color: #CC0033; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px;">RU</div>
+</div>
+<div class="experience-content">
+<div class="experience-header">
+<div class="position-line">Research Assistant | Sep 2023 - Present</div>
+<div class="company-line"><a href="https://sites.rutgers.edu/idsla/" target="_blank">Rutgers Institute for Data Science, Learning and Application</a></div>
+</div>
 
 :::: experience-container
 ::: project
@@ -52,18 +109,29 @@ Designed missing data imputation algorithms for distributed healthcare networks 
 
 Developed scalable <span class="highlight-tech">GWAS algorithms</span> in distributed environments and applied <span class="highlight-tech">generative AI models (VAEs, GANs, Diffusion models)</span> for Type 2 diabetes and dementia SNP analysis, advancing for early disease detection and <span class="highlight-tech">personalized therapeutic target identification</span>.
 
-**Financial Data Security and Federated Learning**
+**Financial Crime Detection using Secure Learning**
 
 Proposed XgBoost-based federated learning framework for detecting financial anomaly transactions, ensuring privacy and security of participant dataset.
 :::
 ::::
 
-**Data Science Intern, [DvSum.ai](https://dvsum.ai/){target="_blank"}, June - Sep 2021**
+</div>
+</div>
+
+<div class="experience-item">
+<div class="company-logo">
+<img src="images/dvsum.jfif" alt="DvSum.ai">
+</div>
+<div class="experience-content">
+<div class="experience-header">
+<div class="position-line">Data Science Intern | June - Sep 2021</div>
+<div class="company-line"><a href="https://dvsum.ai/" target="_blank">DvSum.ai</a></div>
+</div>
 
 :::: experience-container
 ::: project
 
-**Intelligent Data Management Pipeline**
+**Data Management and Governance Layer for Enterprise AI**
 
 Developed an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.
 
@@ -72,3 +140,5 @@ Developed an automated pipeline for data type (primitive, semantic) detection, a
 Created an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows.
 :::
 ::::
+</div>
+</div>

@@ -88,11 +88,13 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="style.css">
 <meta property="og:title" content="STM">
-<meta property="og:description" content="">
+<meta property="og:image" content="images/dvsum.jfif">
 <meta property="og:site_name" content="STM">
+<meta property="og:image:alt" content="DvSum.ai">
 <meta name="twitter:title" content="STM">
-<meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="images/dvsum.jfif">
+<meta name="twitter:image:alt" content="DvSum.ai">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -126,11 +128,15 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects &amp; Software</span></a>
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./software.html"> 
+<span class="menu-text">Software</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -152,8 +158,57 @@ ul.task-list li input[type="checkbox"] {
 
 <style>
 .project p:has(strong) { margin-bottom: 0.25rem !important; }
-.experience-container { font-size: 0.9rem !important; }
+.experience-container { 
+  font-size: 0.9rem !important; 
+}
 .highlight-tech { font-weight: bold; color: rgb(105, 106, 108); }
+
+.experience-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.company-logo {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.company-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.experience-content {
+  flex: 1;
+}
+
+.experience-header {
+  margin-bottom: 1rem;
+}
+
+.position-line {
+  font-weight: 600;
+  font-size: 1.0rem;
+  margin-bottom: 0.25rem;
+}
+
+.company-line {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+.company-line a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.company-line a:hover {
+  text-decoration: underline;
+}
 </style>
 <!-- ## Education
 
@@ -177,24 +232,54 @@ Physics | 1st class merit (top 5%)
 <section id="work-experience" class="level3">
 <h3 data-anchor-id="work-experience">Work Experience</h3>
 <hr>
-<p><strong>Research Assistant, <a href="https://sites.rutgers.edu/idsla/" target="_blank">Rutgers i-DSLA</a>, Sep 2023 - Present</strong></p>
+<div class="experience-item">
+<div class="company-logo">
+<div style="width: 50px; height: 50px; background-color: #CC0033; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px;">
+RU
+</div>
+</div>
+<div class="experience-content">
+<div class="experience-header">
+<div class="position-line">
+Research Assistant | Sep 2023 - Present
+</div>
+<div class="company-line">
+<a href="https://sites.rutgers.edu/idsla/" target="_blank">Rutgers Institute for Data Science, Learning and Application</a>
+</div>
+</div>
 <div class="experience-container">
 <div class="project">
 <p><strong>Data Quality Management and Artificial Intelligence</strong></p>
 <p>Designed missing data imputation algorithms for distributed healthcare networks and applied <span class="highlight-tech">generative AI models (VAEs, GANs, transformers)</span> for data quality improvement, focusing on utility, privacy, and ethical considerations to establish <span class="highlight-tech">responsible AI</span> practices in production environments.</p>
 <p><strong>Generative AI for Biomedical Informatics</strong></p>
 <p>Developed scalable <span class="highlight-tech">GWAS algorithms</span> in distributed environments and applied <span class="highlight-tech">generative AI models (VAEs, GANs, Diffusion models)</span> for Type 2 diabetes and dementia SNP analysis, advancing for early disease detection and <span class="highlight-tech">personalized therapeutic target identification</span>.</p>
-<p><strong>Financial Data Security and Federated Learning</strong></p>
+<p><strong>Financial Crime Detection using Secure Learning</strong></p>
 <p>Proposed XgBoost-based federated learning framework for detecting financial anomaly transactions, ensuring privacy and security of participant dataset.</p>
 </div>
 </div>
-<p><strong>Data Science Intern, <a href="https://dvsum.ai/" target="_blank">DvSum.ai</a>, June - Sep 2021</strong></p>
+</div>
+</div>
+<div class="experience-item">
+<div class="company-logo">
+<p><img src="images/dvsum.jfif" alt="DvSum.ai"></p>
+</div>
+<div class="experience-content">
+<div class="experience-header">
+<div class="position-line">
+Data Science Intern | June - Sep 2021
+</div>
+<div class="company-line">
+<a href="https://dvsum.ai/" target="_blank">DvSum.ai</a>
+</div>
+</div>
 <div class="experience-container">
 <div class="project">
-<p><strong>Intelligent Data Management Pipeline</strong></p>
+<p><strong>Data Management and Governance Layer for Enterprise AI</strong></p>
 <p>Developed an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.</p>
 <p><strong>Automated Data Science Workflow</strong></p>
 <p>Created an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows.</p>
+</div>
+</div>
 </div>
 </div>
 

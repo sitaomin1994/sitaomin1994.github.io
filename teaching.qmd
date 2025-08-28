@@ -1,25 +1,82 @@
 ---
+toc: false
+format:
+    html:
+        css: style.css
+        grid:
+            sidebar-width: 0px
+            body-width: 800px
+            margin-width: 0px
 ---
 
-## Teaching Assistant at Rutgers University
+<style>
+.teaching-grid { font-size: 0.9rem !important; }
+.course li { margin: 0.25rem 0 !important; }
+h3 { margin-bottom: 0.5rem !important; }
+hr { margin: 0.5rem 0 !important; }
+h3 + hr + p, h3 + hr + strong { margin-top: 0.5rem !important; margin-bottom: 0.5rem !important; }
+.university-section { margin-top: 0.5rem !important; margin-bottom: 0.5rem !important; }
+p { margin-bottom: 0.0rem !important; }
+.interests-section { font-size: 0.9rem !important; }
+</style>
+
+### Teaching Interests
+
+---
+
+<div class="interests-section">
+Data Management, Database & Big Data, AI & Deep Learning, Business Analytics, Management Information Systems, Programming Foundations, Introduction to Data Science
+</div>
+
+### Teaching Experience
+
+---
+
+<div class="university-section">
+**Rutgers University**
+</div>
 
 :::: teaching-grid
 ::: course
--   **Introduction to Cybersecurity** (Undergraduate), Spring 2023
--   **Deep Learning** (Graduate), Spring 2023
--   **Data Mining** (Graduate), Fall 2022
--   **Data Mining** (Graduate), Spring 2022
--   **Introduction to Data Structure and Algorithm** (Graduate), Fall 2021
--   **Foundations of Business Programming (BAIT 388)** (Undergraduate), Spring 2021
--   **Foundations of Business Programming (BAIT 388)** (Undergraduate), Fall 2020
+-   **Guest Lecturer, Data Mining** (Graduate), Spring 2025
+    - *Topics in data quality, AI ethics, and fairness*
+-   **Guest Lecturer, Data Privacy** (Graduate), Fall 2024
+    - *Topics in data privacy and crypto algorithms*
+-   **Teaching Assistant, Introduction to Cybersecurity** (Undergraduate), Spring 2023
+-   **Teaching Assistant, Deep Learning** (Graduate), Spring 2023
+-   **Teaching Assistant, Data Mining** (Graduate), Fall 2022
+-   **Teaching Assistant, Data Mining** (Graduate), Spring 2022
+-   **Teaching Assistant, Introduction to Data Structure and Algorithm** (Graduate), Fall 2021
+-   **Teaching Assistant, Foundations of Business Programming (BAIT 388)** (Undergraduate), Spring, Fall 2020
 :::
 ::::
 
-## Course Assistant at University of Southern California
+<div class="university-section">
+**University of Southern California**
+</div>
 
 :::: teaching-grid
 ::: course
--   **CSCI 561 Introduction to Artificial Intelligence** (Graduate), Spring 2020
--   **CSCI 561 Introduction to Artificial Intelligence** (Graduate), Fall 2019
+-   **Teaching Assistant, CSCI 561 Introduction to Artificial Intelligence** (Graduate), Spring 2020
+-   **Teaching Assistant, CSCI 561 Introduction to Artificial Intelligence** (Graduate), Fall 2019
+:::
+::::
+
+
+### Courses Taken
+
+---
+
+:::: teaching-grid
+::: course
+-   **Linear Statistical Model**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/22_960_777.pdf){target="_blank"}
+-   **Introduction to Probability**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/26_960_575.pdf){target="_blank"}
+-   **Advanced Econometrics**, *USC*
+-   **Stochastic Process**, *Rutgers*, [Syllabus](https://www.business.rutgers.edu/sites/default/files/documents/phd-syllabus-stochastic-processes.pdf){target="_blank"}
+-   **Data Mining**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/22_198_650.pdf){target="_blank"}
+-   **Machine Learning for Data Science**, *USC,* [Syllabus](https://web-app.usc.edu/soc/syllabus/20192/32498.pdf)
+-   **Data Privacy**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/26_198_645.pdf){target="_blank"}
+-   **Reinforcement Learning**, *Rutgers*
+-   **Database System**, *USC*, [Syllabus](https://web-app.usc.edu/soc/syllabus/20243/30149.pdf){target="_blank"}
 :::
 ::::
