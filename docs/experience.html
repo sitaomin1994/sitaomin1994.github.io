@@ -88,11 +88,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="style.css">
 <meta property="og:title" content="STM">
-<meta property="og:image" content="https://sitaomin1994.github.io/images/dvsum.jfif">
+<meta property="og:image" content="images/dvsum.jfif">
 <meta property="og:site_name" content="STM">
 <meta property="og:image:alt" content="DvSum.ai">
 <meta name="twitter:title" content="STM">
-<meta name="twitter:image" content="https://sitaomin1994.github.io/images/dvsum.jfif">
+<meta name="twitter:image" content="images/dvsum.jfif">
 <meta name="twitter:image:alt" content="DvSum.ai">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -352,7 +352,7 @@ Physics | 1st class merit (top 5%)
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/sitaomin1994\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

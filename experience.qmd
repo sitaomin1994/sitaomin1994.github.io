@@ -1,0 +1,159 @@
+---
+toc: false
+format:
+    html:
+        css: style.css
+        grid:
+            sidebar-width: 0px
+            body-width: 800px
+            margin-width: 0px
+---
+
+```{=html}
+<style>
+.project p:has(strong) { margin-bottom: 0.25rem !important; }
+.experience-container { 
+  font-size: 0.9rem !important; 
+}
+.highlight-tech { font-weight: bold; color: rgb(105, 106, 108); }
+
+.experience-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.company-logo {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.company-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.experience-content {
+  flex: 1;
+}
+
+.experience-header {
+  margin-bottom: 1rem;
+}
+
+.position-line {
+  font-weight: 600;
+  font-size: 1.0rem;
+  margin-bottom: 0.25rem;
+}
+
+.company-line {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+.company-line a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.company-line a:hover {
+  text-decoration: underline;
+}
+</style>
+```
+
+```{=html}
+<!-- ## Education
+
+:::: experience-container
+::: project
+
+**Rutgers Business School, Ph.D.** | 2020-2026
+
+Information Technology, Advisor: Dr. Jaideep Vaidya
+
+**University of Southern California, M.S.** | 2018-2020
+
+Computer Science, Advisor: Dr. Jianhua Zhao
+
+**Zhejiang University, B.S.** | 2013-2017
+
+Physics | 1st class merit (top 5%)
+
+:::
+:::: -->
+```
+
+### Work Experience
+
+------------------------------------------------------------------------
+
+::::::::::: experience-item
+:::: company-logo
+::: {style="width: 50px; height: 50px; background-color: #CC0033; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px;"}
+RU
+:::
+::::
+
+:::::::: experience-content
+::::: experience-header
+::: position-line
+Research Assistant \| Sep 2023 - Present
+:::
+
+::: company-line
+<a href="https://sites.rutgers.edu/idsla/" target="_blank">Rutgers Institute for Data Science, Learning and Application</a>
+:::
+:::::
+
+:::: experience-container
+::: project
+**Data Quality Management and Artificial Intelligence**
+
+Designed missing data imputation algorithms for distributed healthcare networks and applied [generative AI models (VAEs, GANs, transformers)]{.highlight-tech} for data quality improvement, focusing on utility, privacy, and ethical considerations to establish [responsible AI]{.highlight-tech} practices in production environments.
+
+**Generative AI for Biomedical Informatics**
+
+Developed scalable [GWAS algorithms]{.highlight-tech} in distributed environments and applied [generative AI models (VAEs, GANs, Diffusion models)]{.highlight-tech} for Type 2 diabetes and dementia SNP analysis, advancing for early disease detection and [personalized therapeutic target identification]{.highlight-tech}.
+
+**Financial Crime Detection using Secure Learning**
+
+Proposed XgBoost-based federated learning framework for detecting financial anomaly transactions, ensuring privacy and security of participant dataset.
+:::
+::::
+::::::::
+:::::::::::
+
+:::::::::: experience-item
+::: company-logo
+<img src="images/dvsum.jfif" alt="DvSum.ai"/>
+:::
+
+:::::::: experience-content
+::::: experience-header
+::: position-line
+Data Science Intern \| June - Sep 2021
+:::
+
+::: company-line
+<a href="https://dvsum.ai/" target="_blank">DvSum.ai</a>
+:::
+:::::
+
+:::: experience-container
+::: project
+**Data Management and Governance Layer for Enterprise AI**
+
+Developed an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.
+
+**Automated Data Science Workflow**
+
+Created an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows.
+:::
+::::
+::::::::
+::::::::::
