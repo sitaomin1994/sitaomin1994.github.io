@@ -1,21 +1,133 @@
----
+<!-- ---
 title: "Sitao Min"
-image: img2.jpg
+image: images/photo.jpg
 about:
   id: jolla_id
-  template: jolla
+  #template: jolla
+  template: broadside
+  image-shape: round
+  image-width: 12rem
   links:
     - icon: linkedin
-      text: Linkedin
       href: https://www.linkedin.com/in/sitao-m-605ab2134/
     - icon: github
-      text: GitHub
       href: https://github.com/sitaomin1994/
-    - icon: email
-      text: Email
+    - icon: envelope
       href: mailto:sm2370@rutgers.edu
+    - icon: google
+      href: https://scholar.google.com/citations?user=dhpYC6sAAAAJ
     # (additional links excluded for brevity)
 ---
-Hi there! I am a Ph.D. candidate at Rutgers University, under the supervision of [Dr. Jaideep Vaidya](https://sites.rutgers.edu/jsvaidya/){target="_blank"} at the Rutgers Institute of Data Science Learning and Application ([Rutgers iDSLA](https://sites.rutgers.edu/idsla/){target="_blank"}). I hold a Master's in Computer Science from USC and a Bachelor's degree from Zhejiang University, China.
 
-My research focuses on healthcare data science, particularly **missing data imputation** (e.g., in distributed healthcare networks), **clinical and EHR data analysis** (e.g., real-world evidence (RWE)), **federated learning**, and **data privacy**.
+::: {.grid}
+
+::: {.g-col-12 .g-col-sm-4}
+
+```{=html}
+<div class="grid" style="--bs-columns: 5; row-gap: 0;">
+  <div class="g-col-1 g-col-sm-0"></div>
+  <div class="g-col-3 g-col-sm-5">
+    <picture>
+      <source media="(max-width: 576px)" srcset="{{< meta main-photo-square >}}">
+      <source media="(min-width: 576px)" srcset="{{< meta main-photo >}}">
+      <img class="img-fluid rounded-circle" src="{{< meta main-photo >}}" alt="{{< meta author-meta >}}" style="width: 100%; height: auto; object-fit: cover;">
+    </picture>
+  </div>
+  <div class="g-col-1 g-col-sm-0"></div>
+</div>
+```
+
+
+Hi there! I am a Ph.D. candidate at Rutgers Business School, under the supervision of [Dr. Jaideep Vaidya](https://sites.rutgers.edu/jsvaidya/){target="_blank"} at the Rutgers Institute of Data Science Learning and Application ([Rutgers iDSLA](https://sites.rutgers.edu/idsla/){target="_blank"}). I studied data management and healthcare data science, particularly **data quality and missing data** (e.g., in distributed healthcare networks), **AI/ML applications in clinical and EHR data**, **federated learning**, and **data privacy**.
+
+## Education
+
+---
+
+**Rutgers Business School, NJ** | Sept 2020 - May 2026
+
+PhD in Information Systems
+
+**University of Southern California, CA** | Sept 2018 - June 2020
+
+M.S in Computer Science
+
+**Zhejiang University, China** | Sept 2013 - June 2017
+
+B.A in Physics -->
+
+---
+pagetitle: "Sitao Min"
+description-meta: "Ph.D. candidate at Rutgers Business School, under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application."
+main-photo: images/photo.jpg
+main-photo-square: images/photo.jpg
+---
+
+::: {.grid .mt-5} 
+<style>
+.grid { column-gap: 1.5rem !important; }
+</style>
+
+::: {.g-col-12 .g-col-sm-5}
+
+```{=html}
+<div class="grid" style="--bs-columns: 5; row-gap: 0;">
+  <div class="g-col-1 g-col-sm-0"></div>
+  <div class="g-col-3 g-col-sm-5">
+    <picture>
+      <source media="(max-width: 576px)" srcset="{{< meta main-photo-square >}}">
+      <source media="(min-width: 576px)" srcset="{{< meta main-photo >}}">
+      <img class="img-fluid rounded-circle mx-auto d-block" src="{{< meta main-photo >}}" alt="{{< meta author-meta >}}" style="width: 70%; height: auto; object-fit: cover;">
+    </picture>
+    <h1 class="text-center mt-3 mb-0" style="font-size: 2rem; font-weight: 600;">Sitao Min</h1>
+    <div class="text-center mt-4" style="display: flex; justify-content: center; gap: 10px;">
+      <a href="https://www.linkedin.com/in/sitao-m-605ab2134/" target="_blank" class="text-decoration-none" style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background-color: rgba(108, 117, 125, 0.1); border-radius: 4px; transition: background-color 0.3s;">
+        <i class="bi bi-linkedin" style="font-size: 1rem; color: rgba(108, 117, 125, 0.8);"></i>
+      </a>
+      <a href="https://github.com/sitaomin1994/" target="_blank" class="text-decoration-none" style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background-color: rgba(108, 117, 125, 0.1); border-radius: 4px; transition: background-color 0.3s;">
+        <i class="bi bi-github" style="font-size: 1rem; color: rgba(108, 117, 125, 0.8);"></i>
+      </a>
+      <a href="mailto:sm2370@rutgers.edu" class="text-decoration-none" style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background-color: rgba(108, 117, 125, 0.1); border-radius: 4px; transition: background-color 0.3s;">
+        <i class="bi bi-envelope" style="font-size: 1rem; color: rgba(108, 117, 125, 0.8);"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?user=dhpYC6sAAAAJ" target="_blank" class="text-decoration-none" style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background-color: rgba(108, 117, 125, 0.1); border-radius: 4px; transition: background-color 0.3s;">
+        <i class="bi bi-google" style="font-size: 1rem; color: rgba(108, 117, 125, 0.8);"></i>
+      </a>
+      <a href="#" target="_blank" class="text-decoration-none" style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background-color: rgba(108, 117, 125, 0.1); border-radius: 4px; transition: background-color 0.3s;">
+        <i class="ai ai-cv" style="font-size: 1rem; color: rgba(108, 117, 125, 0.8);"></i>
+      </a>
+    </div>
+  </div>
+  <div class="g-col-1 g-col-sm-0"></div>
+</div>
+```
+
+:::
+
+::: {.g-col-12 .g-col-sm-7}
+
+### Welcome to my personal website! {.mb-2}
+
+---
+
+I am a Ph.D. candidate of Information System at [Rutgers Business School](https://www.business.rutgers.edu/){target="_blank"} under the supervision of [Dr. Jaideep Vaidya](https://sites.rutgers.edu/jsvaidya/){target="_blank"}.  Before joining Rutgers, I obtained a M.S in Computer Science at University of Southern California and B.S. in Physics at Zhejiang University in China.
+
+My expertise lies in the intersection of **data management**, **AI/ML**, and **healthcare data science**. I specialize in **AI/ML applications** for data quality improvement (e.g., missing data) and clinical, EHR, and genomics data analysis, as well as advancing **generative AI** techniques for synthetic healthcare data generation to address **data privacy** and **ethical** issues.
+
+<!-- ---
+
+**Rutgers Business School, NJ** | Sept 2020 - May 2026
+
+PhD in Information Systems
+
+**University of Southern California, CA** | Sept 2018 - June 2020
+
+M.S in Computer Science
+
+**Zhejiang University, China** | Sept 2013 - June 2017
+
+B.A in Physics -->
+
+:::
+
+:::

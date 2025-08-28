@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>software – STM</title>
+<title>claude – STM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -38,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-032e92a35ca466c0d70f8ce94e846307.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1ed48d5e3d859e348c351ad72b40a71c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,7 +121,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="style.css">
 <meta property="og:title" content="STM">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="STM">
@@ -133,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./software.html" aria-current="page"> 
+    <a class="nav-link" href="./software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
 </ul>
@@ -154,14 +188,72 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>I am the author of the following packages and software projects:</p>
+<section id="claude.md" class="level1">
+<h1>CLAUDE.md</h1>
+<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
+<section id="repository-overview" class="level2">
+<h2 data-anchor-id="repository-overview">Repository Overview</h2>
+<p>This is a personal portfolio/academic website built with Quarto, a scientific publishing system. The website showcases research interests, publications, teaching experience, and professional background for Sitao Min, a Ph.D.&nbsp;candidate at Rutgers University.</p>
+</section>
+<section id="tech-stack" class="level2">
+<h2 data-anchor-id="tech-stack">Tech Stack</h2>
 <ul>
-<li><a href="https://idsla.github.io/FedImpute/" target="_blank"><strong>FedImpute</strong></a> <strong>- Toolkit for Distributed Missing Data Imputation Research</strong></li>
-<li><a href="https://github.com/sitaomin1994/MedicalDataKit" target="_blank"><strong>MedDataKit</strong></a> <strong>- Toolkit for Collection and Analysis of Medical Tabular Data</strong></li>
-<li><a href="https://youtu.be/I04TYDyScbU?si=xIlDBhsNeTw0NZ-v" target="_blank"><strong>CrowdMap</strong></a> <strong>- Crowd Monitoring Dashboard for COVID-19 via WiFi Connection</strong></li>
+<li><strong>Quarto</strong>: Static site generator (version 1.7.32)</li>
+<li><strong>HTML/CSS</strong>: Bootstrap theme (lumen) with custom styles</li>
+<li><strong>Output</strong>: Static HTML files in <code>docs/</code> directory for GitHub Pages deployment</li>
+</ul>
+</section>
+<section id="commands" class="level2">
+<h2 data-anchor-id="commands">Commands</h2>
+<section id="development" class="level3">
+<h3 data-anchor-id="development">Development</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview    <span class="co"># Live preview with hot reload</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="build" class="level3">
+<h3 data-anchor-id="build">Build</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render     <span class="co"># Build site to docs/ directory</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="deploy" class="level3">
+<h3 data-anchor-id="deploy">Deploy</h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages    <span class="co"># Deploy to GitHub Pages</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="project-structure" class="level2">
+<h2 data-anchor-id="project-structure">Project Structure</h2>
+<ul>
+<li><code>*.qmd</code> files: Quarto markdown source files for each page</li>
+<li><code>_quarto.yml</code>: Main configuration file defining site structure, theme, and build settings</li>
+<li><code>docs/</code>: Generated output directory containing built HTML site</li>
+<li><code>images/</code>: Image assets used throughout the site</li>
+<li><code>papers/</code>: PDF research papers</li>
+<li><code>styles.css</code>: Custom CSS overrides</li>
+</ul>
+</section>
+<section id="key-configuration" class="level2">
+<h2 data-anchor-id="key-configuration">Key Configuration</h2>
+<p>The site is configured in <code>_quarto.yml</code>: - Output directory: <code>docs/</code> (for GitHub Pages compatibility) - Theme: lumen (Bootstrap) - Navigation: About, Research, Experience, Teaching sections - Search enabled - Responsive design with max-width: 2500px</p>
+</section>
+<section id="content-pages" class="level2">
+<h2 data-anchor-id="content-pages">Content Pages</h2>
+<ul>
+<li><code>index.qmd</code>: About/homepage with education and research interests</li>
+<li><code>research.qmd</code>: Research projects and publications</li>
+<li><code>experience.qmd</code>: Professional experience</li>
+<li><code>teaching.qmd</code>: Teaching experience</li>
+<li>Additional pages follow same <code>.qmd</code> format</li>
+</ul>
+</section>
+<section id="important-notes" class="level2">
+<h2 data-anchor-id="important-notes">Important Notes</h2>
+<ul>
+<li>The site uses Quarto’s visual editor mode</li>
+<li>TinyTeX is installed for LaTeX support if needed</li>
+<li>Python/Jupyter integration available but nbclient module may need installation for notebook rendering</li>
 </ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

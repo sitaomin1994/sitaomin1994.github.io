@@ -5,29 +5,43 @@ project:
 website:
   title: "STM"
   favicon: favicon.png
+  twitter-card: true
+  open-graph: true
   navbar:
     left:
       - href: index.qmd
         text: About
-      - href: research.qmd
-        text: Research
       - href: experience.qmd
         text: Experience
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects
       - href: teaching.qmd
         text: Teaching
+      - href: software.qmd
+        text: Software
     collapse: true
     search: true
-    background: primary
+    background: dark
     back-to-top-navigation: true
     page-footer: "Copyright 2024, Sitao Min"
     max-width: 1500px
+    pinned: true
 
 format:
   html:
-    theme: lumen
+    theme: cosmo
+    page-layout: full
     css: styles.css
     toc: false
-    fontsize: 1.0em
-
-editor: visual
+    fontsize: 1.2em
+    include-in-header: "_includes/header.html"
+    anchor-sections: false
+    link-external-icon: false
+    link-external-newwindow: true
+    grid:
+      sidebar-width: 0px
+      body-width: 950px
+      margin-width: 0px
 

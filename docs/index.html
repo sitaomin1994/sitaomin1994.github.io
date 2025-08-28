@@ -67,15 +67,32 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- academic icons -->
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+
+<!-- altmetric icons -->
+
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+<!-- fontawesome icons -->
+
+<script src="https://kit.fontawesome.com/1392a7030f.js" crossorigin="anonymous"></script>
 
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Sitao Min">
-<meta property="og:image" content="images/photo.jpg">
+<meta property="og:image" content="https://sitaomin1994.github.io/images/photo.jpg">
 <meta property="og:site_name" content="STM">
 <meta property="og:image:alt" content="?meta:author-meta">
 <meta name="twitter:title" content="Sitao Min">
-<meta name="twitter:image" content="images/photo.jpg">
+<meta name="twitter:image" content="https://sitaomin1994.github.io/images/photo.jpg">
 <meta name="twitter:image:alt" content="?meta:author-meta">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -110,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.qmd"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -320,7 +337,7 @@ B.A in Physics -->
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/sitaomin1994\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

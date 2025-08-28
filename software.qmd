@@ -1,4 +1,17 @@
 ---
-title: "Software"
-format: html
+toc: false
+format:
+    html:
+        css: style.css
+        grid:
+            sidebar-width: 0px
+            body-width: 900px
+            margin-width: 0px
 ---
+
+
+I am the author of the following packages and software projects:
+
+-   [**FedImpute**](https://idsla.github.io/FedImpute/){target="_blank"} **- Toolkit for Distributed Missing Data Imputation Research**
+-   [**MedDataKit**](https://github.com/sitaomin1994/MedicalDataKit){target="_blank"} **- Toolkit for Collection and Analysis of Medical Tabular Data**
+-   [**CrowdMap**](https://youtu.be/I04TYDyScbU?si=xIlDBhsNeTw0NZ-v){target="_blank"} **- Crowd Monitoring Dashboard for COVID-19 via WiFi Connection**
