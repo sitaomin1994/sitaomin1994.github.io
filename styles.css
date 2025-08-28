@@ -1,9 +1,8 @@
 /* css styles */
-
 .teaching-grid {
   display: grid;
-  gap: 1.5rem;
-  margin: 2rem 0;
+  gap: 0.5rem;
+  margin: 0.2rem 0;
 }
 
 .course {
@@ -36,7 +35,7 @@
 
 
 .experience-container {
-  margin-left: 0.5rem;
+  margin-left: 0.0rem;
   border-left: 3px solid #2c3e50;
   padding-left: 0rem;
 }
