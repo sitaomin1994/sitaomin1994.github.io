@@ -1,17 +1,69 @@
 ---
+toc: false
 format:
     html:
         css: style.css
-        fontsize: 1.0em
+        grid:
+            sidebar-width: 0px
+            body-width: 800px
+            margin-width: 0px
 ---
 
-## Work Experience
+<style>
+.project p:has(strong) { margin-bottom: 0.25rem !important; }
+.experience-container { font-size: 0.9rem !important; }
+.highlight-tech { font-weight: bold; color: rgb(105, 106, 108); }
+</style>
 
-**Data Science Intern, [DvSum.ai](https://dvsum.ai/){target="_blank"}, June - Sep 2021, CA, USA**
+<!-- ## Education
 
 :::: experience-container
 ::: project
-**Intelligent Metadata Management Pipeline**
+
+**Rutgers Business School, Ph.D.** | 2020-2026
+
+Information Technology, Advisor: Dr. Jaideep Vaidya
+
+**University of Southern California, M.S.** | 2018-2020
+
+Computer Science, Advisor: Dr. Jianhua Zhao
+
+**Zhejiang University, B.S.** | 2013-2017
+
+Physics | 1st class merit (top 5%)
+
+:::
+:::: -->
+
+
+### Work Experience
+
+---
+
+**Research Assistant, [Rutgers i-DSLA](https://sites.rutgers.edu/idsla/){target="_blank"}, Sep 2023 - Present**
+
+:::: experience-container
+::: project
+**Data Quality Management and Artificial Intelligence**
+
+Designed missing data imputation algorithms for distributed healthcare networks and applied <span class="highlight-tech">generative AI models (VAEs, GANs, transformers)</span> for data quality improvement, focusing on utility, privacy, and ethical considerations to establish <span class="highlight-tech">responsible AI</span> practices in production environments.
+
+**Generative AI for Biomedical Informatics**
+
+Developed scalable <span class="highlight-tech">GWAS algorithms</span> in distributed environments and applied <span class="highlight-tech">generative AI models (VAEs, GANs, Diffusion models)</span> for Type 2 diabetes and dementia SNP analysis, advancing for early disease detection and <span class="highlight-tech">personalized therapeutic target identification</span>.
+
+**Financial Data Security and Federated Learning**
+
+Proposed XgBoost-based federated learning framework for detecting financial anomaly transactions, ensuring privacy and security of participant dataset.
+:::
+::::
+
+**Data Science Intern, [DvSum.ai](https://dvsum.ai/){target="_blank"}, June - Sep 2021**
+
+:::: experience-container
+::: project
+
+**Intelligent Data Management Pipeline**
 
 Developed an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.
 
@@ -20,59 +72,3 @@ Developed an automated pipeline for data type (primitive, semantic) detection, a
 Created an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows.
 :::
 ::::
-
-## Competitions and Awards
-
-:::: experience-container
-::: project
-**Kaggle CIBMTR - Equity in post-HCT Survival Predictions, Silver Medal (74/3084), 2025**
-
--   Proposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.
-
-**US PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)**
-
--   Designed privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.
--   **Challenge Report: [US-UK PETs Challenge](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/challenges/us-uk-pets-prize){target="_blank"} \| Solution: [Scarlet-PETs](https://github.com/usnistgov/PrivacyEngCollabSpace/tree/master/tools/de-identification/Scarlet-PETs){target="_blank"}**
-
-**Kaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024**
-
--   Processed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction.
-:::
-::::
-
-<!-- :::: experience-container
-::: project
-**US PETs (Privacy-enhancing Technolgy) Challenge, Financial Crime Prevention, 1st Place (1/60)**
-
--   Designed privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.
--   **Challenge Report: [US-UK PETs Challenge](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/challenges/us-uk-pets-prize) \| Solution: [Scarlet-PETs](https://github.com/usnistgov/PrivacyEngCollabSpace/tree/master/tools/de-identification/Scarlet-PETs)**
-:::
-::::
-
-:::: experience-container
-::: project
-**Kaggle Predict New Medicines with BELKA, Blonde Medal (178/1950), 2024**
-
--   Processed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction.
-:::
-:::: -->
-
-## Software
-
-I am the author of the following packages and software projects:
-
--   [**FedImpute**](https://idsla.github.io/FedImpute/){target="_blank"} **- Toolkit for Distributed Missing Data Imputation Research**
--   [**MedDataKit**](https://github.com/sitaomin1994/MedicalDataKit){target="_blank"} **- Toolkit for Collection and Analysis of Medical Tabular Data**
--   [**CrowdMap**](https://youtu.be/I04TYDyScbU?si=xIlDBhsNeTw0NZ-v){target="_blank"} **- Crowd Monitoring Dashboard for COVID-19 via WiFi Connection**
-
-## Courses Taken
-
--   **Linear Statistical Model**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/22_960_777.pdf){target="_blank"}
--   **Introduction to Probability**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/960-statistics/26_960_575.pdf){target="_blank"}
--   **Advanced Econometrics**, *USC*
--   **Stochastic Process**, *Rutgers*, [Syllabus](https://www.business.rutgers.edu/sites/default/files/documents/phd-syllabus-stochastic-processes.pdf){target="_blank"}
--   **Data Mining**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/22_198_650.pdf){target="_blank"}
--   **Machine Learning for Data Science**, *USC,* [Syllabus](https://web-app.usc.edu/soc/syllabus/20192/32498.pdf)
--   **Data Privacy**, *Rutgers*, [Syllabus](https://myrbs.business.rutgers.edu/sites/default/files/syllabi/198-computer-science/26_198_645.pdf){target="_blank"}
--   **Reinforcement Learning**, *Rutgers*
--   **Database System**, *USC*, [Syllabus](https://web-app.usc.edu/soc/syllabus/20243/30149.pdf){target="_blank"}

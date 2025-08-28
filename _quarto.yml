@@ -11,15 +11,17 @@ website:
     left:
       - href: index.qmd
         text: About
-      - href: research.qmd
-        text: Research
       - href: experience.qmd
         text: Experience
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects & Software
       - href: teaching.qmd
         text: Teaching
     collapse: true
     search: true
-    background: primary
+    background: dark
     back-to-top-navigation: true
     page-footer: "Copyright 2024, Sitao Min"
     max-width: 1500px
@@ -27,15 +29,19 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme: cosmo
     page-layout: full
     css: styles.css
     toc: false
-    fontsize: 1.1em
+    fontsize: 1.2em
+    include-in-header: "_includes/header.html"
+    anchor-sections: false
+    link-external-icon: false
+    link-external-newwindow: true
     grid:
-      sidebar-width: 200px
-      body-width: 1000px
-      margin-width: 200px
+      sidebar-width: 0px
+      body-width: 950px
+      margin-width: 0px
 
 editor: visual
 

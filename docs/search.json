@@ -72,9 +72,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "STM",
+    "title": "Sitao Min",
     "section": "",
-    "text": "Hi there! I am a Ph.D. candidate at Rutgers Business School, under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA). I studied data management and healthcare data science, particularly data quality and missing data (e.g., in distributed healthcare networks), AI/ML applications in clinical and EHR data, federated learning, and data privacy.\nI study how international NGOs work in authoritarian countries, and I received the 2016–2018 Emerging Scholar Dissertation Award from the International Society for Third Sector Research (ISTR). I do research in public administration and policy, nonprofit management, international relations, and comparative politics.\nI teach courses on program evaluation and causal inference, statistics and data science, data visualization, economics, and science communication. I’m also a certified RStudio instructor and a Posit Academy mentor and absolutely love teaching how to use R and the tidyverse."
+    "text": "Sitao Min\n    \n      \n        \n      \n      \n        \n      \n      \n        \n      \n      \n        \n      \n      \n        \n      \n    \n  \n  \n\n\n\nWelcome to my personal website!\n\nI am a Ph.D. candidate of Information System at Rutgers Business School under the supervision of Dr. Jaideep Vaidya. Before joining Rutgers, I obtained a M.S in Computer Science at University of Southern California and B.S. in Physics at Zhejiang University in China.\nMy expertise lies in the intersection of data management, AI/ML, and healthcare data science. I specialize in AI/ML applications for data quality improvement (e.g., missing data) and clinical, EHR, and genomics data analysis, as well as advancing generative AI techniques for synthetic healthcare data generation to address data privacy and ethical issues."
   },
   {
     "objectID": "about.html",
@@ -88,14 +88,14 @@
     "href": "experience.html",
     "title": "STM",
     "section": "",
-    "text": "Data Science Intern, DvSum.ai, June - Sep 2021, CA, USA\n\n\nIntelligent Metadata Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
+    "text": "Work Experience\n\nResearch Assistant, Rutgers i-DSLA, Sep 2023 - Present\n\n\nData Quality Management and Artificial Intelligence\nDesigned missing data imputation algorithms for distributed healthcare networks and applied generative AI models (VAEs, GANs, transformers) for data quality improvement, focusing on utility, privacy, and ethical considerations to establish responsible AI practices in production environments.\nGenerative AI for Biomedical Informatics\nDeveloped scalable GWAS algorithms in distributed environments and applied generative AI models (VAEs, GANs, Diffusion models) for Type 2 diabetes and dementia SNP analysis, advancing for early disease detection and personalized therapeutic target identification.\nFinancial Data Security and Federated Learning\nProposed XgBoost-based federated learning framework for detecting financial anomaly transactions, ensuring privacy and security of participant dataset.\n\n\nData Science Intern, DvSum.ai, June - Sep 2021\n\n\nIntelligent Data Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
   },
   {
     "objectID": "experience.html#work-experience",
     "href": "experience.html#work-experience",
     "title": "STM",
     "section": "",
-    "text": "Data Science Intern, DvSum.ai, June - Sep 2021, CA, USA\n\n\nIntelligent Metadata Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
+    "text": "Research Assistant, Rutgers i-DSLA, Sep 2023 - Present\n\n\nData Quality Management and Artificial Intelligence\nDesigned missing data imputation algorithms for distributed healthcare networks and applied generative AI models (VAEs, GANs, transformers) for data quality improvement, focusing on utility, privacy, and ethical considerations to establish responsible AI practices in production environments.\nGenerative AI for Synthetic Biomedical Informatics Data\nDeveloped scalable algorithms for genome-wide association studies (GWAS) in distributed computing environments and explored applications of generative AI models (VAEs, GANs, Diffusion models) for genomic data analysis, including genetic variant imputation and synthetic genome generation.\nFinancial Data Security and Federated Learning\nProposed XgBoost-based federated learning framework for detecting financial anomaly transactions, ensuring privacy and security of participant dataset.\n\n\nData Science Intern, DvSum.ai, June - Sep 2021\n\n\nIntelligent Data Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
   },
   {
     "objectID": "experience.html#competitions-and-awards",
@@ -136,15 +136,15 @@
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Sitao Min",
-    "section": "Education",
-    "text": "Education\n\nRutgers Business School, NJ | Sept 2020 - May 2026\nPhD in Information Systems\nUniversity of Southern California, CA | Sept 2018 - June 2020\nM.S in Computer Science\nZhejiang University, China | Sept 2013 - June 2017\nB.A in Physics"
+    "section": "",
+    "text": "Rutgers Business School, NJ | Sept 2020 - May 2026\nPhD in Information Systems\nUniversity of Southern California, CA | Sept 2018 - June 2020\nM.S in Computer Science\nZhejiang University, China | Sept 2013 - June 2017\nB.A in Physics"
   },
   {
     "objectID": "index.html#research-interests",
     "href": "index.html#research-interests",
     "title": "Sitao Min",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nMissing Data Imputation\nClinical and EHR Data Analysis\nFederated Learning\nData Privacy"
+    "section": "",
+    "text": "My research focuses on:\n\nData Quality and Missing Data in distributed healthcare networks\nAI/ML Applications in clinical and EHR data analysis\n\nFederated Learning for privacy-preserving machine learning\nData Privacy and security in healthcare systems"
   },
   {
     "objectID": "CLAUDE.html",
@@ -208,5 +208,96 @@
     "title": "Sitao Min",
     "section": "Experience",
     "text": "Experience\n\nMissing Data Imputation\nClinical and EHR Data Analysis\nFederated Learning\nData Privacy"
+  },
+  {
+    "objectID": "index.html#recent-work",
+    "href": "index.html#recent-work",
+    "title": "Sitao Min",
+    "section": "",
+    "text": "I’m currently working on projects involving federated learning frameworks for healthcare data, with particular attention to maintaining data quality across distributed networks while preserving patient privacy."
+  },
+  {
+    "objectID": "index.html#welcome-to-my-website",
+    "href": "index.html#welcome-to-my-website",
+    "title": "Sitao Min",
+    "section": "",
+    "text": "I am a Ph.D. candidate at Rutgers Business School, under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA).\nMy expertise lies in data management and healthcare data science, particularly data quality and missing data (e.g., in distributed healthcare networks), AI/ML applications in clinical and EHR data, federated learning, and data privacy.\n\nRutgers Business School, NJ | Sept 2020 - May 2026\nPhD in Information Systems\nUniversity of Southern California, CA | Sept 2018 - June 2020\nM.S in Computer Science\nZhejiang University, China | Sept 2013 - June 2017\nB.A in Physics"
+  },
+  {
+    "objectID": "index.html#welcome-to-my-personalwebsite",
+    "href": "index.html#welcome-to-my-personalwebsite",
+    "title": "Sitao Min",
+    "section": "",
+    "text": "I am a Ph.D. candidate at Rutgers Business School, under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA).\nMy expertise lies in data management and healthcare data science, particularly data quality and missing data (e.g., in distributed healthcare networks), AI/ML applications in clinical and EHR data, federated learning, and data privacy.\n\nRutgers Business School, NJ | Sept 2020 - May 2026\nPhD in Information Systems\nUniversity of Southern California, CA | Sept 2018 - June 2020\nM.S in Computer Science\nZhejiang University, China | Sept 2013 - June 2017\nB.A in Physics"
+  },
+  {
+    "objectID": "index.html#welcome-to-my-personal-website",
+    "href": "index.html#welcome-to-my-personal-website",
+    "title": "Sitao Min",
+    "section": "",
+    "text": "I am a Ph.D. candidate at Rutgers Business School, under the supervision of Dr. Jaideep Vaidya at the Rutgers Institute of Data Science Learning and Application (Rutgers iDSLA). My expertise lies in data management and healthcare data science, particularly data quality and missing data (e.g., in distributed healthcare networks), AI/ML applications in clinical and EHR data, federated learning, and data privacy."
+  },
+  {
+    "objectID": "experience.html#work-experience-1",
+    "href": "experience.html#work-experience-1",
+    "title": "STM",
+    "section": "Work Experience",
+    "text": "Work Experience\nData Science Intern, DvSum.ai, June - Sep 2021, CA, USA\n\n\nIntelligent Metadata Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
+  },
+  {
+    "objectID": "experience.html#education",
+    "href": "experience.html#education",
+    "title": "STM",
+    "section": "",
+    "text": "Rutgers Business School, Ph.D. | 2020-2026\nInformation Technology, Advisor: Dr. Jaideep Vaidya\nUniversity of Southern California, M.S. | 2018-2020\nComputer Science, Advisor: Dr. Jianhua Zhao\nZhejiang University, B.S. | 2013-2017\nPhysics | 1st class merit (top 5%)"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "STM",
+    "section": "",
+    "text": "Kaggle CIBMTR - Equity in post-HCT Survival Predictions, Silver Medal (74/3084), 2025\n\nProposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.\n\nUS PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs\n\nKaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction."
+  },
+  {
+    "objectID": "projects.html#education",
+    "href": "projects.html#education",
+    "title": "STM",
+    "section": "",
+    "text": "Ph.D. in Information Systems, Rutgers Business School, NJ, USA\nM.S. in Computer Science, University of Southern California, CA, USA\nB.A. in Physics, Zhejiang University, China"
+  },
+  {
+    "objectID": "projects.html#work-experience",
+    "href": "projects.html#work-experience",
+    "title": "STM",
+    "section": "Work Experience",
+    "text": "Work Experience\nData Science Intern, DvSum.ai, June - Sep 2021, CA, USA\n\n\nIntelligent Metadata Management Pipeline\nDeveloped an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.\nAutomated Data Science Workflow\nCreated an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows."
+  },
+  {
+    "objectID": "projects.html#competitions-and-awards",
+    "href": "projects.html#competitions-and-awards",
+    "title": "STM",
+    "section": "Competitions and Awards",
+    "text": "Competitions and Awards\n\n\nKaggle CIBMTR - Equity in post-HCT Survival Predictions, Silver Medal (74/3084), 2025\n\nProposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.\n\nUS PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs\n\nKaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction."
+  },
+  {
+    "objectID": "projects.html#software",
+    "href": "projects.html#software",
+    "title": "STM",
+    "section": "Software",
+    "text": "Software\nI am the author of the following packages and software projects:\n\nFedImpute - Toolkit for Distributed Missing Data Imputation Research\nMedDataKit - Toolkit for Collection and Analysis of Medical Tabular Data\nCrowdMap - Crowd Monitoring Dashboard for COVID-19 via WiFi Connection"
+  },
+  {
+    "objectID": "projects.html#courses-taken",
+    "href": "projects.html#courses-taken",
+    "title": "STM",
+    "section": "Courses Taken",
+    "text": "Courses Taken\n\nLinear Statistical Model, Rutgers, Syllabus\nIntroduction to Probability, Rutgers, Syllabus\nAdvanced Econometrics, USC\nStochastic Process, Rutgers, Syllabus\nData Mining, Rutgers, Syllabus\nMachine Learning for Data Science, USC, Syllabus\nData Privacy, Rutgers, Syllabus\nReinforcement Learning, Rutgers\nDatabase System, USC, Syllabus"
+  },
+  {
+    "objectID": "projects.html#projects",
+    "href": "projects.html#projects",
+    "title": "STM",
+    "section": "",
+    "text": "Kaggle CIBMTR - Equity in post-HCT Survival Predictions, Silver Medal (74/3084), 2025\n\nProposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.\n\nUS PETs (Privacy-enhancing Technology) Challenge, Financial Crime Prevention, 1st Place (1/60)\n\nDesigned privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.\nChallenge Report: US-UK PETs Challenge | Solution: Scarlet-PETs\n\nKaggle Predict New Medicines with BELKA, Bronze Medal (178/1950), 2024\n\nProcessed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction."
   }
 ]

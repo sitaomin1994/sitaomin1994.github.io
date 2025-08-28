@@ -34,12 +34,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-003055b59bfe3d0797ee3fb0d4378e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-13594d8bfcd8ec195a032332c6ba78c2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,9 +66,27 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- academic icons -->
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+
+<!-- altmetric icons -->
+
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+<!-- fontawesome icons -->
+
+<script src="https://kit.fontawesome.com/1392a7030f.js" crossorigin="anonymous"></script>
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
 <meta property="og:title" content="STM">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="STM">
@@ -100,12 +117,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./experience.html"> 
+<span class="menu-text">Experience</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./experience.html"> 
-<span class="menu-text">Experience</span></a>
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects &amp; Software</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
@@ -130,11 +151,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="research-interests" class="level2">
-<h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
+<h2 data-anchor-id="research-interests">Research Interests</h2>
 <p>My research focuses on healthcare data analysis &amp; data privacy, primarily addressing missing data imputation in distributed networks. I also apply statistical modeling for clinical research and clinical prediction models using EHR data. Additionally, I develop privacy-enhancing technologies for healthcare, bioinformatics, and financial applications.</p>
 </section>
 <section id="missing-data-imputation-in-distributed-healthcare-networks" class="level2">
-<h2 class="anchored" data-anchor-id="missing-data-imputation-in-distributed-healthcare-networks">Missing Data Imputation in Distributed Healthcare Networks</h2>
+<h2 data-anchor-id="missing-data-imputation-in-distributed-healthcare-networks">Missing Data Imputation in Distributed Healthcare Networks</h2>
 <p>Our mission is to address the challenge of missing data imputation in distributed clinical networks. We develop imputation algorithms that enable healthcare institutions to collaboratively handle missing data without directly sharing sensitive patient information. These approaches allow improving data quality in distributed clinical networks for downstream statistical analyses and predictive tasks.</p>
 <div class="experience-container">
 <div class="project">
@@ -144,16 +165,16 @@ ul.task-list li input[type="checkbox"] {
 <li>Min, S., et al.&nbsp;<strong>Exploring the inequitable impact of data missingness on fairness in machine learning</strong>, <em>IEEE Intelligent Systems</em> <a href="./papers/fairness.pdf" target="_blank">[Link]</a></li>
 <li>Min, S., et al.&nbsp;<strong>Stochastic Gradient Based MICE Imputation over Vertically Partitioned Data</strong>, work in progress</li>
 <li>Min, S., et al.&nbsp;<strong>MICE imputation for Multi-center Study via External Knowledge Transfer</strong>, work in progress <!-- - **Cafe: Improved Federated Data Imputation by Leveraging Missing Data Heterogeneity.** *IEEE Transactions on Knowledge and Data Engineering*.  [[Link]](https://ieeexplore.ieee.org/abstract/document/10858753?casa_token=GEo-JrjzP4UAAAAA:5uR0CwXwPfW8Pc1P9ECzlADx71-hulne_hQNJAHxI_P513qTBZHTIoeuer5V8bFOzypxP_6BeGg){target="_blank"}
-- **FedImpute: A Framework for Distributed Missing Data Imputation Research with Python**, submitted to *Journal of Statistical Software*, [[Link]](https://idsla.github.io/FedImpute/){target="_blank"}
-- **Exploring the inequitable impact of data missingness on fairness in machine learning**, under review by *IEEE Intelligent Systems*
-- **Stochastic Gradient Based MICE Imputation over Vertically Partitioned Data**, work in progress
-- **MICE imputation for Multi-center Study via External Knowledge Transfer**, work in progress --></li>
+    - **FedImpute: A Framework for Distributed Missing Data Imputation Research with Python**, submitted to *Journal of Statistical Software*, [[Link]](https://idsla.github.io/FedImpute/){target="_blank"}
+    - **Exploring the inequitable impact of data missingness on fairness in machine learning**, under review by *IEEE Intelligent Systems*
+    - **Stochastic Gradient Based MICE Imputation over Vertically Partitioned Data**, work in progress
+    - **MICE imputation for Multi-center Study via External Knowledge Transfer**, work in progress --></li>
 </ul>
 </div>
 </div>
 </section>
 <section id="statistical-analysis-for-clinical-research-evidence-based-studies" class="level2">
-<h2 class="anchored" data-anchor-id="statistical-analysis-for-clinical-research-evidence-based-studies">Statistical Analysis for Clinical Research &amp; Evidence-Based Studies</h2>
+<h2 data-anchor-id="statistical-analysis-for-clinical-research-evidence-based-studies">Statistical Analysis for Clinical Research &amp; Evidence-Based Studies</h2>
 <p>I also collaborate with several anesthesiologists, developing statistical models and analyses to support their clinical research on topics such as patients’ respiratory function during surgery. Currently, I’m also interested in real-world evidence analyses on publicly available datasets, e.g., MIMIC.</p>
 <div class="experience-container">
 <div class="project">
@@ -161,14 +182,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Gao, X., Min, S., et al.&nbsp;<strong>Comparing Ventilation Modes for Elderly Patients in Prone Spinal Surgery: A Randomized Trial</strong>, submitted to <em>BMC Journal of Anesthesiology</em> <a href="./papers/Paper_1.pdf" target="_blank">[Draft]</a></li>
 <li>Yin, W., Min, S., et al.&nbsp;<strong>Intrapulmonary Shunt and Oxygenation During One-Lung Ventilation: Influence of Dexmedetomidine Combined with TAES</strong>, submitted to <em>Journal of Clinical Anesthesia</em> <a href="./papers/Paper_2.pdf" target="_blank">[Draft]</a></li>
 <li>Li, J., Min, S., et al.&nbsp;<strong>Impact of Dexmedetomidine and Static Lung Inflation on Post-Cardiopulmonary Bypass Pulmonary Function in Valve Surgery Patients</strong>, submitted to <em>BMC Journal of Anesthesiology</em> <a href="">[Draft]</a> <!-- - **Comparing Ventilation Modes for Elderly Patients in Prone Spinal Surgery: A Randomized Trial**, submitted to *BMC Journal of Anesthesiology* (work with Xin Gao)  [[Draft]](./papers/Paper_1.pdf){target="_blank"}
-- **Intrapulmonary Shunt and Oxygenation During One-Lung Ventilation: Influence of Dexmedetomidine Combined with TAES**, submitted to *Journal of Clinical Anesthesia*  (work with Yinjuan Wei) [[Draft]]()
-- **Impact of Dexmedetomidine and Static Lung Inflation on Post-Cardiopulmonary Bypass Pulmonary Function in Valve Surgery Patients**, submitted to *BMC Journal of Anesthesiology* (work with Juanchang Li) [[Draft]]() --></li>
+    - **Intrapulmonary Shunt and Oxygenation During One-Lung Ventilation: Influence of Dexmedetomidine Combined with TAES**, submitted to *Journal of Clinical Anesthesia*  (work with Yinjuan Wei) [[Draft]]()
+    - **Impact of Dexmedetomidine and Static Lung Inflation on Post-Cardiopulmonary Bypass Pulmonary Function in Valve Surgery Patients**, submitted to *BMC Journal of Anesthesiology* (work with Juanchang Li) [[Draft]]() --></li>
 </ul>
 </div>
 </div>
 </section>
 <section id="federated-learning-data-privacy-in-finance-and-bioinformatics" class="level2">
-<h2 class="anchored" data-anchor-id="federated-learning-data-privacy-in-finance-and-bioinformatics">Federated Learning &amp; Data Privacy in Finance and Bioinformatics</h2>
+<h2 data-anchor-id="federated-learning-data-privacy-in-finance-and-bioinformatics">Federated Learning &amp; Data Privacy in Finance and Bioinformatics</h2>
 <p>We propose a federated XGBoost model for financial crime prediction as the 1st prize solution in US PETs Challenge. We also design solutions for data generation of SNPs data for GWAS studies for privacy preservation.</p>
 <div class="experience-container">
 <div class="project">
@@ -181,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 <section id="ehr-data-and-clinical-prediction-model" class="level2">
-<h2 class="anchored" data-anchor-id="ehr-data-and-clinical-prediction-model">EHR Data and Clinical Prediction Model</h2>
+<h2 data-anchor-id="ehr-data-and-clinical-prediction-model">EHR Data and Clinical Prediction Model</h2>
 <p>I am also currently working on research related to Electronic Health Records (EHR) and Clinical Prediction Models (CPM).</p>
 <div class="experience-container">
 <div class="project">
@@ -193,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 <section id="other-research" class="level2">
-<h2 class="anchored" data-anchor-id="other-research">Other Research</h2>
+<h2 data-anchor-id="other-research">Other Research</h2>
 <p>Previously, I had experience analyzing software commit history and wifi-connection data.</p>
 <div class="experience-container">
 <div class="project">
@@ -210,13 +231,6 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -294,6 +308,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
