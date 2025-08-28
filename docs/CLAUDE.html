@@ -59,7 +59,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -70,12 +69,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-003055b59bfe3d0797ee3fb0d4378e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1ed48d5e3d859e348c351ad72b40a71c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,9 +101,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<!-- academic icons -->
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+
+<!-- altmetric icons -->
+
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+<!-- fontawesome icons -->
+
+<script src="https://kit.fontawesome.com/1392a7030f.js" crossorigin="anonymous"></script>
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="STM">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="STM">
+<meta name="twitter:title" content="STM">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -130,16 +151,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./experience.html"> 
 <span class="menu-text">Experience</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./software.html"> 
+<span class="menu-text">Software</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -163,11 +192,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>CLAUDE.md</h1>
 <p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
 <section id="repository-overview" class="level2">
-<h2 class="anchored" data-anchor-id="repository-overview">Repository Overview</h2>
+<h2 data-anchor-id="repository-overview">Repository Overview</h2>
 <p>This is a personal portfolio/academic website built with Quarto, a scientific publishing system. The website showcases research interests, publications, teaching experience, and professional background for Sitao Min, a Ph.D.&nbsp;candidate at Rutgers University.</p>
 </section>
 <section id="tech-stack" class="level2">
-<h2 class="anchored" data-anchor-id="tech-stack">Tech Stack</h2>
+<h2 data-anchor-id="tech-stack">Tech Stack</h2>
 <ul>
 <li><strong>Quarto</strong>: Static site generator (version 1.7.32)</li>
 <li><strong>HTML/CSS</strong>: Bootstrap theme (lumen) with custom styles</li>
@@ -175,22 +204,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </section>
 <section id="commands" class="level2">
-<h2 class="anchored" data-anchor-id="commands">Commands</h2>
+<h2 data-anchor-id="commands">Commands</h2>
 <section id="development" class="level3">
-<h3 class="anchored" data-anchor-id="development">Development</h3>
+<h3 data-anchor-id="development">Development</h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview    <span class="co"># Live preview with hot reload</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="build" class="level3">
-<h3 class="anchored" data-anchor-id="build">Build</h3>
+<h3 data-anchor-id="build">Build</h3>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render     <span class="co"># Build site to docs/ directory</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="deploy" class="level3">
-<h3 class="anchored" data-anchor-id="deploy">Deploy</h3>
+<h3 data-anchor-id="deploy">Deploy</h3>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages    <span class="co"># Deploy to GitHub Pages</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
 <section id="project-structure" class="level2">
-<h2 class="anchored" data-anchor-id="project-structure">Project Structure</h2>
+<h2 data-anchor-id="project-structure">Project Structure</h2>
 <ul>
 <li><code>*.qmd</code> files: Quarto markdown source files for each page</li>
 <li><code>_quarto.yml</code>: Main configuration file defining site structure, theme, and build settings</li>
@@ -201,11 +230,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </section>
 <section id="key-configuration" class="level2">
-<h2 class="anchored" data-anchor-id="key-configuration">Key Configuration</h2>
+<h2 data-anchor-id="key-configuration">Key Configuration</h2>
 <p>The site is configured in <code>_quarto.yml</code>: - Output directory: <code>docs/</code> (for GitHub Pages compatibility) - Theme: lumen (Bootstrap) - Navigation: About, Research, Experience, Teaching sections - Search enabled - Responsive design with max-width: 2500px</p>
 </section>
 <section id="content-pages" class="level2">
-<h2 class="anchored" data-anchor-id="content-pages">Content Pages</h2>
+<h2 data-anchor-id="content-pages">Content Pages</h2>
 <ul>
 <li><code>index.qmd</code>: About/homepage with education and research interests</li>
 <li><code>research.qmd</code>: Research projects and publications</li>
@@ -215,7 +244,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </section>
 <section id="important-notes" class="level2">
-<h2 class="anchored" data-anchor-id="important-notes">Important Notes</h2>
+<h2 data-anchor-id="important-notes">Important Notes</h2>
 <ul>
 <li>The site uses Quarto’s visual editor mode</li>
 <li>TinyTeX is installed for LaTeX support if needed</li>
@@ -229,13 +258,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -313,6 +335,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

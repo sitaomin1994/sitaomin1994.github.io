@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-13594d8bfcd8ec195a032332c6ba78c2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-82b6b75eec68f8d51243eb50cbd9aead.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,9 +88,13 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="style.css">
 <meta property="og:title" content="STM">
+<meta property="og:image" content="images/cmbtr.jpeg">
 <meta property="og:site_name" content="STM">
+<meta property="og:image:alt" content="CMBTR Challenge">
 <meta name="twitter:title" content="STM">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="images/cmbtr.jpeg">
+<meta name="twitter:image:alt" content="CMBTR Challenge">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -153,34 +157,159 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-.project { font-size: 0.9rem !important; }
+.project { font-size: 0.85rem !important; }
+
+.project-card {
+  display: flex;
+  gap: 0;
+  margin-bottom: 2rem;
+  /* border: 1px solid #e0e0e0; */
+  border-radius: 3px;
+  overflow: hidden;
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+  background: white;
+}
+
+.project-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.project-image {
+  flex-shrink: 0;
+  width: 220px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.experience-container {
+  margin-left: 0.0rem;
+  border-left: 3px solid #2c3e50;
+  padding-left: 0rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  margin-bottom: 0rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+    margin-bottom: 0rem;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+.position-line {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.company-line {
+  color: #6c757d;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.company-line a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.company-line a:hover {
+  text-decoration: underline;
+}
 </style>
 <section id="projects" class="level3">
 <h3 data-anchor-id="projects">Projects</h3>
 <hr>
+<div class="project-card">
+<div class="project-image">
+<p><img src="images/cmbtr.jpeg" alt="CMBTR Challenge"></p>
+</div>
+<div class="project-main">
 <div class="experience-container">
 <div class="project">
-<p><strong>Post-HCT Survival Predictions using ML/DL, Kaggle CMBTR Challenge, Silver Medal (74/3084), 2025</strong></p>
+<div class="position-line">
+<p>Post-HCT Survival Predictions using Machine Learning and Deep Learning | 2025</p>
+</div>
+<div class="company-line">
+<p><a href="https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions" target="_blank">Kaggle CMBTR Challenge</a>, Silver Medal (74/3084)</p>
+</div>
 <ul>
-<li>Proposed ensembles of deep survivor models and XGBoost-based Cox survival using pseudo label techniques for survival risk prediction for hematopoietic cell transplant patients.</li>
+<li>The aim of this project is to develop advanced survival predictive models for almost 30,000 allogeneic hematopoietic cell transplant (HCT) patients collected from CIBMTR.</li>
+<li>Proposed a solution for Silver Medal by ensembling multiple ML/DL models including Light GBM with Kaplan Meier transformation and XGBoost-based cox model, accelarated failure model and deep learning based survival prediction model. | <strong>Solution Report: <a href="https://github.com/cmbtr-2025/CMBTR-Survivor" target="_blank">CMBTR-Survivor</a></strong></li>
 </ul>
 </div>
 </div>
+</div>
+</div>
+<div class="project-card">
+<div class="project-image">
+<p><img src="images/belka2.jpg" alt="BELKA Challenge"></p>
+</div>
+<div class="project-main">
 <div class="experience-container">
 <div class="project">
-<p><strong>Predict Protein-molecule Interaction for New Medicines using Deep Learning, Kaggle Challenge, Bronze Medal (178/1950), 2024</strong></p>
+<div class="position-line">
+<p>Predict Protein-molecule Interaction for New Medicines using Deep Learning | 2024</p>
+</div>
+<div class="company-line">
+<p><a href="https://www.kaggle.com/competitions/leash-BELKA" target="_blank">Kaggle BELKA Challenge</a>, Bronze Medal (178/1950)</p>
+</div>
 <ul>
-<li>Processed protein data for molecule representation extraction using Pandas and BELKA and developed 1D CNN model in PyTorch for protein-molecule interaction prediction.</li>
+<li>The aim of this project is to develop predictive models for estimating small molecule binding affinity to protein targets using the BELKA dataset to accelerate drug discovery.</li>
+<li>Developed an ensemble approach combining 1D CNN, Transformer, and Mamba architectures with character-level tokenization of SMILES strings for molecular sequence encoding to achieve robust multi-label classification performance. | <strong>Solution Report: <a href="https://github.com/belka-2024/BELKA-2024" target="_blank">BELKA-2024</a></strong></li>
 </ul>
 </div>
 </div>
+</div>
+</div>
+<div class="project-card">
+<div class="project-image">
+<p><img src="images/pets2.png" alt="US-UK PETs Challenge"></p>
+</div>
+<div class="project-main">
 <div class="experience-container">
 <div class="project">
-<p><strong>Financial Crime Prevention using Secure AI, US PETs Challenge, 1st Place (1/60), 2024</strong></p>
+<div class="position-line">
+<p>Financial Crime Prevention using Secure AI | 2024</p>
+</div>
+<div class="company-line">
+<p><a href="https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/challenges/us-uk-pets-prize" target="_blank">US-UK PETs Challenge</a>, 1st Place (10,000 USD)</p>
+</div>
 <ul>
-<li>Designed privacy-preserving federated XGBoost using Bloomfilter for financial crime detection.</li>
-<li><strong>Challenge Report: <a href="https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/challenges/us-uk-pets-prize" target="_blank">US-UK PETs Challenge</a> | Solution: <a href="https://github.com/usnistgov/PrivacyEngCollabSpace/tree/master/tools/de-identification/Scarlet-PETs" target="_blank">Scarlet-PETs</a></strong></li>
+<li>The aim of this project is to develop privacy-preserving federated learning solutions for detecting anomalous financial transactions to combat international money laundering.</li>
+<li>Designed privacy-preserving federated XGBoost using Bloomfilter for secure anomalous financial transactions detection. | <strong>Solution Report: <a href="https://github.com/usnistgov/PrivacyEngCollabSpace/tree/master/tools/de-identification/Scarlet-PETs" target="_blank">Scarlet-PETs</a></strong></li>
 </ul>
+</div>
+</div>
 </div>
 </div>
 

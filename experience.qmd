@@ -9,6 +9,7 @@ format:
             margin-width: 0px
 ---
 
+```{=html}
 <style>
 .project p:has(strong) { margin-bottom: 0.25rem !important; }
 .experience-container { 
@@ -63,7 +64,9 @@ format:
   text-decoration: underline;
 }
 </style>
+```
 
+```{=html}
 <!-- ## Education
 
 :::: experience-container
@@ -83,54 +86,66 @@ Physics | 1st class merit (top 5%)
 
 :::
 :::: -->
-
+```
 
 ### Work Experience
 
----
+------------------------------------------------------------------------
 
-<div class="experience-item">
-<div class="company-logo">
-<div style="width: 50px; height: 50px; background-color: #CC0033; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px;">RU</div>
-</div>
-<div class="experience-content">
-<div class="experience-header">
-<div class="position-line">Research Assistant | Sep 2023 - Present</div>
-<div class="company-line"><a href="https://sites.rutgers.edu/idsla/" target="_blank">Rutgers Institute for Data Science, Learning and Application</a></div>
-</div>
+::::::::::: experience-item
+:::: company-logo
+::: {style="width: 50px; height: 50px; background-color: #CC0033; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px;"}
+RU
+:::
+::::
+
+:::::::: experience-content
+::::: experience-header
+::: position-line
+Research Assistant \| Sep 2023 - Present
+:::
+
+::: company-line
+<a href="https://sites.rutgers.edu/idsla/" target="_blank">Rutgers Institute for Data Science, Learning and Application</a>
+:::
+:::::
 
 :::: experience-container
 ::: project
 **Data Quality Management and Artificial Intelligence**
 
-Designed missing data imputation algorithms for distributed healthcare networks and applied <span class="highlight-tech">generative AI models (VAEs, GANs, transformers)</span> for data quality improvement, focusing on utility, privacy, and ethical considerations to establish <span class="highlight-tech">responsible AI</span> practices in production environments.
+Designed missing data imputation algorithms for distributed healthcare networks and applied [generative AI models (VAEs, GANs, transformers)]{.highlight-tech} for data quality improvement, focusing on utility, privacy, and ethical considerations to establish [responsible AI]{.highlight-tech} practices in production environments.
 
 **Generative AI for Biomedical Informatics**
 
-Developed scalable <span class="highlight-tech">GWAS algorithms</span> in distributed environments and applied <span class="highlight-tech">generative AI models (VAEs, GANs, Diffusion models)</span> for Type 2 diabetes and dementia SNP analysis, advancing for early disease detection and <span class="highlight-tech">personalized therapeutic target identification</span>.
+Developed scalable [GWAS algorithms]{.highlight-tech} in distributed environments and applied [generative AI models (VAEs, GANs, Diffusion models)]{.highlight-tech} for Type 2 diabetes and dementia SNP analysis, advancing for early disease detection and [personalized therapeutic target identification]{.highlight-tech}.
 
 **Financial Crime Detection using Secure Learning**
 
 Proposed XgBoost-based federated learning framework for detecting financial anomaly transactions, ensuring privacy and security of participant dataset.
 :::
 ::::
+::::::::
+:::::::::::
 
-</div>
-</div>
+:::::::::: experience-item
+::: company-logo
+<img src="images/dvsum.jfif" alt="DvSum.ai"/>
+:::
 
-<div class="experience-item">
-<div class="company-logo">
-<img src="images/dvsum.jfif" alt="DvSum.ai">
-</div>
-<div class="experience-content">
-<div class="experience-header">
-<div class="position-line">Data Science Intern | June - Sep 2021</div>
-<div class="company-line"><a href="https://dvsum.ai/" target="_blank">DvSum.ai</a></div>
-</div>
+:::::::: experience-content
+::::: experience-header
+::: position-line
+Data Science Intern \| June - Sep 2021
+:::
+
+::: company-line
+<a href="https://dvsum.ai/" target="_blank">DvSum.ai</a>
+:::
+:::::
 
 :::: experience-container
 ::: project
-
 **Data Management and Governance Layer for Enterprise AI**
 
 Developed an automated pipeline for data type (primitive, semantic) detection, advanced profiling, rule-based metadata matching and quality validation, and autonomous lineage tracking.
@@ -140,5 +155,5 @@ Developed an automated pipeline for data type (primitive, semantic) detection, a
 Created an end-to-end pipeline for autonomous data cleaning, profiling, feature transformation, and code generation to streamline data science team workflows.
 :::
 ::::
-</div>
-</div>
+::::::::
+::::::::::

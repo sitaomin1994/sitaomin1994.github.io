@@ -88,10 +88,8 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="style.css">
 <meta property="og:title" content="STM">
-<meta property="og:description" content="">
 <meta property="og:site_name" content="STM">
 <meta name="twitter:title" content="STM">
-<meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -154,82 +152,89 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="research-interests" class="level2">
-<h2 data-anchor-id="research-interests">Research Interests</h2>
-<p>My research focuses on healthcare data analysis &amp; data privacy, primarily addressing missing data imputation in distributed networks. I also apply statistical modeling for clinical research and clinical prediction models using EHR data. Additionally, I develop privacy-enhancing technologies for healthcare, bioinformatics, and financial applications.</p>
+<style>
+.project p:has(strong) { margin-bottom: 0.25rem !important; }
+.experience-container { 
+  font-size: 0.9rem !important; 
+}
+.content {
+  font-size: 0.9rem !important;
+}
+
+h3 {margin-bottom: 0.5rem !important; margin-top: 0.5rem !important;}
+.project {
+  font-size: 0.9rem !important;
+}
+</style>
+<section id="research-directions" class="level3">
+<h3 data-anchor-id="research-directions">Research Directions</h3>
+<hr>
+<div class="content">
+<p>My research intersection of <strong>data management</strong>, <strong>AI/ML</strong>, and <strong>healthcare data science</strong>. I proposed serveral data quality improvement algorithms (missing data) for distributed healthcare networks. I also applied generative and preditive AI for statistical modeling for EHR and genomic data. Additionally, I develop privacy-enhancing technologies for healthcare, bioinformatics, and financial applications.</p>
+</div>
 </section>
-<section id="missing-data-imputation-in-distributed-healthcare-networks" class="level2">
-<h2 data-anchor-id="missing-data-imputation-in-distributed-healthcare-networks">Missing Data Imputation in Distributed Healthcare Networks</h2>
-<p>Our mission is to address the challenge of missing data imputation in distributed clinical networks. We develop imputation algorithms that enable healthcare institutions to collaboratively handle missing data without directly sharing sensitive patient information. These approaches allow improving data quality in distributed clinical networks for downstream statistical analyses and predictive tasks.</p>
+<section id="research-projects-publications" class="level3">
+<h3 data-anchor-id="research-projects-publications">Research Projects &amp; Publications</h3>
+<hr>
+<section id="stream1-missing-data-imputation-in-distributed-healthcare-networks" class="level4">
+<h4 data-anchor-id="stream1-missing-data-imputation-in-distributed-healthcare-networks">Stream1: Missing Data Imputation in Distributed Healthcare Networks</h4>
+<hr>
+<p>Our mission is to address the challenge of missing data imputation in distributed clinical networks. We develop imputation algorithms that enable healthcare institutions to collaboratively handle missing data without directly sharing sensitive patient information. These approaches allow improving data quality in distributed clinical networks for downstream analyses and AI models. We developed a toolkit for distributed missing data imputation called <a href="https://idsla.github.io/FedImpute/" target="_blank">FedImpute</a>.</p>
 <div class="experience-container">
 <div class="project">
 <ul>
-<li>Min, S., et al.&nbsp;<strong>Cafe: Improved Federated Data Imputation by Leveraging Missing Data Heterogeneity.</strong> <em>IEEE Transactions on Knowledge and Data Engineering</em>. <a href="https://ieeexplore.ieee.org/abstract/document/10858753?casa_token=GEo-JrjzP4UAAAAA:5uR0CwXwPfW8Pc1P9ECzlADx71-hulne_hQNJAHxI_P513qTBZHTIoeuer5V8bFOzypxP_6BeGg" target="_blank">[Link]</a></li>
-<li>Min, S., et al.&nbsp;<strong>FedImpute: A Framework for Distributed Missing Data Imputation Research with Python</strong>, submitted to <em>Journal of Statistical Software</em>, <a href="https://idsla.github.io/FedImpute/" target="_blank">[Link]</a></li>
-<li>Min, S., et al.&nbsp;<strong>Exploring the inequitable impact of data missingness on fairness in machine learning</strong>, <em>IEEE Intelligent Systems</em> <a href="./papers/fairness.pdf" target="_blank">[Link]</a></li>
-<li>Min, S., et al.&nbsp;<strong>Stochastic Gradient Based MICE Imputation over Vertically Partitioned Data</strong>, work in progress</li>
-<li>Min, S., et al.&nbsp;<strong>MICE imputation for Multi-center Study via External Knowledge Transfer</strong>, work in progress <!-- - **Cafe: Improved Federated Data Imputation by Leveraging Missing Data Heterogeneity.** *IEEE Transactions on Knowledge and Data Engineering*.  [[Link]](https://ieeexplore.ieee.org/abstract/document/10858753?casa_token=GEo-JrjzP4UAAAAA:5uR0CwXwPfW8Pc1P9ECzlADx71-hulne_hQNJAHxI_P513qTBZHTIoeuer5V8bFOzypxP_6BeGg){target="_blank"}
-    - **FedImpute: A Framework for Distributed Missing Data Imputation Research with Python**, submitted to *Journal of Statistical Software*, [[Link]](https://idsla.github.io/FedImpute/){target="_blank"}
-    - **Exploring the inequitable impact of data missingness on fairness in machine learning**, under review by *IEEE Intelligent Systems*
-    - **Stochastic Gradient Based MICE Imputation over Vertically Partitioned Data**, work in progress
-    - **MICE imputation for Multi-center Study via External Knowledge Transfer**, work in progress --></li>
+<li>Min, S., et al.&nbsp;<a href="https://ieeexplore.ieee.org/abstract/document/10858753?casa_token=GEo-JrjzP4UAAAAA:5uR0CwXwPfW8Pc1P9ECzlADx71-hulne_hQNJAHxI_P513qTBZHTIoeuer5V8bFOzypxP_6BeGg" target="_blank">Cafe: Improved Federated Data Imputation by Leveraging Missing Data Heterogeneity</a>. <strong><em>IEEE Transactions on Knowledge and Data Engineering</em></strong></li>
+<li>Min, S., et al.&nbsp;<a href="./papers/fairness.pdf" target="_blank">Exploring the inequitable impact of data missingness on fairness in machine learning</a>, <strong><em>IEEE Intelligent Systems</em></strong></li>
+<li>Min, S., et al.&nbsp;<a href="https://idsla.github.io/FedImpute/" target="_blank">FedImpute: A Framework for Distributed Missing Data Imputation Research with Python</a>, <strong><em>Under Review Journal of Statistical Software</em></strong></li>
+<li>Min, S., et al.&nbsp;Impact of Missing Data on the Fairness of Decision Support Systems, <strong><em>Under Review Decision Support Systems</em></strong></li>
 </ul>
 </div>
 </div>
 </section>
-<section id="statistical-analysis-for-clinical-research-evidence-based-studies" class="level2">
-<h2 data-anchor-id="statistical-analysis-for-clinical-research-evidence-based-studies">Statistical Analysis for Clinical Research &amp; Evidence-Based Studies</h2>
-<p>I also collaborate with several anesthesiologists, developing statistical models and analyses to support their clinical research on topics such as patients’ respiratory function during surgery. Currently, I’m also interested in real-world evidence analyses on publicly available datasets, e.g., MIMIC.</p>
+<section id="stream2-generative-ai-for-bioinformatics-and-ehr-data" class="level4">
+<h4 data-anchor-id="stream2-generative-ai-for-bioinformatics-and-ehr-data">Stream2: Generative AI for Bioinformatics and EHR data</h4>
+<hr>
+<p>We also design solutions to apply generative AI for data generation in genomic data for GWAS studies. We also collaborate with anesthesiologists, developing statistical models to support their clinical research. Currently, I’m also interested in real-world evidence analyses on publicly available datasets, e.g., MIMIC. We are developing tools to collect, process, analyze and benchmark public medical datasets called <a href="https://github.com/sitaomin1994/MedicalDataKit" target="_blank">MedDataKit</a> and we are benchmarking ML/DL based clinical prediction models combined with multimodal information for perioperative surgical data for postoperative complications prediction.</p>
 <div class="experience-container">
 <div class="project">
 <ul>
-<li>Gao, X., Min, S., et al.&nbsp;<strong>Comparing Ventilation Modes for Elderly Patients in Prone Spinal Surgery: A Randomized Trial</strong>, submitted to <em>BMC Journal of Anesthesiology</em> <a href="./papers/Paper_1.pdf" target="_blank">[Draft]</a></li>
-<li>Yin, W., Min, S., et al.&nbsp;<strong>Intrapulmonary Shunt and Oxygenation During One-Lung Ventilation: Influence of Dexmedetomidine Combined with TAES</strong>, submitted to <em>Journal of Clinical Anesthesia</em> <a href="./papers/Paper_2.pdf" target="_blank">[Draft]</a></li>
-<li>Li, J., Min, S., et al.&nbsp;<strong>Impact of Dexmedetomidine and Static Lung Inflation on Post-Cardiopulmonary Bypass Pulmonary Function in Valve Surgery Patients</strong>, submitted to <em>BMC Journal of Anesthesiology</em> <a href="">[Draft]</a> <!-- - **Comparing Ventilation Modes for Elderly Patients in Prone Spinal Surgery: A Randomized Trial**, submitted to *BMC Journal of Anesthesiology* (work with Xin Gao)  [[Draft]](./papers/Paper_1.pdf){target="_blank"}
-    - **Intrapulmonary Shunt and Oxygenation During One-Lung Ventilation: Influence of Dexmedetomidine Combined with TAES**, submitted to *Journal of Clinical Anesthesia*  (work with Yinjuan Wei) [[Draft]]()
-    - **Impact of Dexmedetomidine and Static Lung Inflation on Post-Cardiopulmonary Bypass Pulmonary Function in Valve Surgery Patients**, submitted to *BMC Journal of Anesthesiology* (work with Juanchang Li) [[Draft]]() --></li>
+<li>Wang, X., Min, S., &amp; Vaidya, J. Exploring Synthetic Genomes for Genome-wide Association Studies. <strong>Under Review Bioinformatics</strong></li>
+<li>Wang, X., Min, S., &amp; Vaidya, J. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9550000/" target="_blank">Exploring the use of Artificial Genomes for Genome-wide Association Studies through the lens of Utility and Privacy</a>, <strong><em>AMIA Annual Symposium 2024</em></strong></li>
+<li>Wang, X., Min, S., &amp; Vaidya, J. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768919" target="_blank">Descriptor: Synthetic Genomic Dataset with Diverse Ancestry (SynGen6)</a>. <strong><em>IEEE Data Descriptions</em></strong></li>
+<li>Gao, X., Min, S., et al.&nbsp;<a href="./papers/Paper_1.pdf" target="_blank">Comparing Ventilation Modes for Elderly Patients in Prone Spinal Surgery: A Randomized Trial</a>, <strong><em>Under Review BMC Journal of Anesthesiology</em></strong></li>
+<li>Yin, W., Min, S., et al.&nbsp;<a href="./papers/Paper_2.pdf" target="_blank">Intrapulmonary Shunt and Oxygenation During One-Lung Ventilation: Influence of Dexmedetomidine Combined with TAES</a>, <strong><em>Under Review Journal of Clinical Anesthesia</em></strong></li>
+<li>Li, J., Min, S., et al.&nbsp;<a href="./papers/Paper_3.pdf" target="_blank">Impact of Dexmedetomidine and Static Lung Inflation on Post-Cardiopulmonary Bypass Pulmonary Function in Valve Surgery Patients</a>, <strong><em>Under Review BMC Journal of Anesthesiology</em></strong></li>
 </ul>
 </div>
 </div>
 </section>
-<section id="federated-learning-data-privacy-in-finance-and-bioinformatics" class="level2">
-<h2 data-anchor-id="federated-learning-data-privacy-in-finance-and-bioinformatics">Federated Learning &amp; Data Privacy in Finance and Bioinformatics</h2>
+<section id="stream3-secure-ai-for-finance-risk-management" class="level4">
+<h4 data-anchor-id="stream3-secure-ai-for-finance-risk-management">Stream3: Secure AI for Finance Risk Management</h4>
+<hr>
 <p>We propose a federated XGBoost model for financial crime prediction as the 1st prize solution in US PETs Challenge. We also design solutions for data generation of SNPs data for GWAS studies for privacy preservation.</p>
 <div class="experience-container">
 <div class="project">
 <ul>
-<li>Asif, H., Min, S., Wang, X., &amp; Vaidya, J. <strong>US-UK PETs prize challenge: Anomaly detection via privacy-enhanced federated learning</strong>. <em>IEEE transactions on privacy. 2024</em> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10507758" target="_blank">[Link]</a></li>
-<li>Wang, X., Min, S., &amp; Vaidya, J. <strong>Descriptor: Synthetic Genomic Dataset with Diverse Ancestry (SynGen6). IEEE Data Descriptions.</strong> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768919" target="_blank">[Link]</a></li>
-<li>Wang, X., Min, S., &amp; Vaidya, J. <strong>Exploring the use of Artificial Genomes for Genome-wide Association Studies through the lens of Utility and Privacy</strong>, <em>AMIA Annual Symposium 2024</em></li>
+<li>Asif, H., Min, S., Wang, X., &amp; Vaidya, J. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10507758" target="_blank">US-UK PETs prize challenge: Anomaly detection via privacy-enhanced federated learning</a>. <strong><em>IEEE transactions on privacy. (Best Paper Award 2024)</em></strong></li>
 </ul>
 </div>
 </div>
 </section>
-<section id="ehr-data-and-clinical-prediction-model" class="level2">
-<h2 data-anchor-id="ehr-data-and-clinical-prediction-model">EHR Data and Clinical Prediction Model</h2>
-<p>I am also currently working on research related to Electronic Health Records (EHR) and Clinical Prediction Models (CPM).</p>
-<div class="experience-container">
-<div class="project">
-<ul>
-<li><p>Developing tools to collect, process, analyze and benchmark public medical datasets - <a href="https://github.com/sitaomin1994/MedicalDataKit" target="_blank">MedDataKit</a></p></li>
-<li><p>Benchmarking ML/DL based clinical prediction models combined with multimodal information for perioperative surgical data for postoperative complications prediction.</p></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="other-research" class="level2">
-<h2 data-anchor-id="other-research">Other Research</h2>
+<section id="other-research" class="level4">
+<h4 data-anchor-id="other-research">Other Research</h4>
+<hr>
 <p>Previously, I had experience analyzing software commit history and wifi-connection data.</p>
 <div class="experience-container">
 <div class="project">
 <ul>
-<li>Min, S., et al.&nbsp;<strong>CrowdMap: Spatiotemporal Visualization of Anonymous Occupancy Data for Pandemic Response.</strong> <em>ACM SIGSPATIAL</em> 2021. <a href="https://dl.acm.org/doi/pdf/10.1145/3474717.3484269" target="_blank">[Link]</a></li>
-<li>He, J., Min, S., et al.&nbsp;<strong>The characteristics and impact of uncompilable code changes on software quality evolution</strong>. <em>IEEE International Conference on Software Quality, Reliability and Security (QRS) 2020</em></li>
+<li>Min, S., et al.&nbsp;<a href="https://dl.acm.org/doi/pdf/10.1145/3474717.3484269" target="_blank">CrowdMap: Spatiotemporal Visualization of Anonymous Occupancy Data for Pandemic Response</a>. <strong><em>ACM SIGSPATIAL 2021</em></strong></li>
+<li>He, J., Min, S., et al.&nbsp;<a href="https://www.researchgate.net/publication/347779913_The_Characteristics_and_Impact_of_Uncompilable_Code_Changes_on_Software_Quality_Evolution" target="_blank">The characteristics and impact of uncompilable code changes on software quality evolution</a>. <strong><em>IEEE International Conference on Software Quality, Reliability and Security (QRS) 2020</em></strong></li>
 </ul>
 </div>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
